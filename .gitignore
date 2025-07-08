@@ -1,0 +1,4 @@
+# This file is used to ignore certains files and directories in a Git repository.
+
+# Ignore Python virtual environment directories
+/myenv/
