@@ -30,6 +30,12 @@ pip install -r requirements.txt
 1. Select a kernel/environment (the one which you created before)
 2. Press the 'Run All' button or just run cases one by one
 
+## Methodology
+
+### AI Processus Schema
+
+![PunchIQ Processus Schema](ressources/img/PunchIQ_AI_Schema.png)
+
 <!-- 
 ### Launch the solution
 
