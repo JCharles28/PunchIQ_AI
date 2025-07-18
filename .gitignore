@@ -2,3 +2,6 @@
 
 # Ignore Python virtual environment directories
 /myenv/
+
+# Ignore secret repository files
+/secret/
