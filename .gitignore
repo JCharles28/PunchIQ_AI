@@ -5,3 +5,10 @@
 
 # Ignore secret repository files
 /secret/
+
+# Ignore compiled Python files
+/__pycache__/
+*.pyc
+
+# Ignore draft files
+/draft/
