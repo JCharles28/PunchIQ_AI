@@ -1,3 +1,4 @@
+
 name: saul alvarez
 wins: 54
 looses: 1
@@ -8,6 +9,7 @@ age: 32
 country: Mexico
 height_cm: 174.95520000000002
 reach_cm: 178.9938
+
 name: rene alvarado
 wins: 32
 looses: 8
@@ -18,6 +20,7 @@ age: 33
 country: Nicaragua
 height_cm: 170.07840000000002
 reach_cm: 183.007
+
 name: daniel alicea
 wins: 30
 looses: 7
@@ -28,6 +31,7 @@ age: 49
 country: Puerto Rico
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: sadam ali
 wins: 27
 looses: 3
@@ -38,6 +42,7 @@ age: 33
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 184.9882
+
 name: muhammad ali
 wins: 56
 looses: 5
@@ -48,6 +53,7 @@ age: 80
 country: United States
 height_cm: 191.1096
 reach_cm: 197.99300000000002
+
 name: juan zurita
 wins: 130
 looses: 23
@@ -58,6 +64,7 @@ age: 105
 country: Mexico
 height_cm: 164.8968
 reach_cm: 167.9956
+
 name: fritzie zivic
 wins: 158
 looses: 65
@@ -68,6 +75,7 @@ age: 109
 country: United States
 height_cm: 178.0032
 reach_cm: 180.0098
+
 name: rudy zavala
 wins: 25
 looses: 8
@@ -78,6 +86,7 @@ age: 53
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 172.9994
+
 name: carlos zarate
 wins: 66
 looses: 4
@@ -88,6 +97,7 @@ age: 71
 country: Mexico
 height_cm: 173.1264
 reach_cm: 170.00220000000002
+
 name: tony zale
 wins: 67
 looses: 18
@@ -98,6 +108,7 @@ age: 108
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: daud cino yordan
 wins: 40
 looses: 4
@@ -108,6 +119,7 @@ age: 35
 country: Indonesia
 height_cm: 170.07840000000002
 reach_cm: 172.9994
+
 name: teddy yarosz
 wins: 107
 looses: 18
@@ -118,6 +130,7 @@ age: 112
 country: United States
 height_cm: 178.0032
 reach_cm: 183.9976
+
 name: ronald wright
 wins: 51
 looses: 6
@@ -128,6 +141,7 @@ age: 50
 country: United States
 height_cm: 178.9176
 reach_cm: 183.007
+
 name: chalky wright
 wins: 162
 looses: 45
@@ -138,6 +152,7 @@ age: 110
 country: United States
 height_cm: 168.85920000000002
 reach_cm: 175.00600000000003
+
 name: pongsaklek wonjongkam
 wins: 89
 looses: 5
@@ -148,6 +163,7 @@ age: 45
 country: Thailand
 height_cm: 161.84879999999998
 reach_cm: 161.0106
+
 name: krzysztof wlodarczyk
 wins: 58
 looses: 4
@@ -158,6 +174,7 @@ age: 40
 country: Poland
 height_cm: 185.928
 reach_cm: 191.008
+
 name: jackie wilson
 wins: 101
 looses: 45
@@ -168,6 +185,7 @@ age: 113
 country: United States
 height_cm: 164.8968
 reach_cm: 164.99839999999998
+
 name: california jackie wilson
 wins: 63
 looses: 19
@@ -178,6 +196,7 @@ age: 104
 country: United States
 height_cm: 178.9176
 reach_cm: 192.9892
+
 name: darroll wilson
 wins: 27
 looses: 10
@@ -188,6 +207,7 @@ age: 56
 country: United States
 height_cm: 182.88
 reach_cm: 200.9902
+
 name: mark wills
 wins: 14
 looses: 18
@@ -198,6 +218,7 @@ age: 62
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 188.0108
+
 name: roderick willis
 wins: 14
 looses: 7
@@ -208,6 +229,7 @@ age: 49
 country: United States
 height_cm: 198.12
 reach_cm: 208.0006
+
 name: julian williams
 wins: 27
 looses: 2
@@ -218,6 +240,7 @@ age: 32
 country: United States
 height_cm: 178.0032
 reach_cm: 183.9976
+
 name: holman williams
 wins: 145
 looses: 30
@@ -228,6 +251,7 @@ age: 107
 country: United States
 height_cm: 178.9176
 reach_cm: 180.0098
+
 name: ike williams
 wins: 128
 looses: 24
@@ -238,6 +262,7 @@ age: 99
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 172.9994
+
 name: cleveland williams
 wins: 78
 looses: 13
@@ -248,6 +273,7 @@ age: 89
 country: United States
 height_cm: 191.1096
 reach_cm: 202.9968
+
 name: paul williams
 wins: 41
 looses: 2
@@ -258,6 +284,7 @@ age: 41
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 200.9902
+
 name: tramaine williams
 wins: 19
 looses: 0
@@ -268,6 +295,7 @@ age: 29
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 172.9994
+
 name: sherman williams
 wins: 39
 looses: 15
@@ -278,6 +306,7 @@ age: 49
 country: Bahamas
 height_cm: 180.1368
 reach_cm: 192.9892
+
 name: deontay wilder
 wins: 42
 looses: 1
@@ -288,6 +317,7 @@ age: 36
 country: United States
 height_cm: 199.94879999999998
 reach_cm: 210.99779999999998
+
 name: jimmy wilde
 wins: 139
 looses: 4
@@ -298,6 +328,7 @@ age: 130
 country: United Kingdom
 height_cm: 159.10559999999998
 reach_cm: 167.9956
+
 name: pernell whitaker
 wins: 40
 looses: 4
@@ -308,6 +339,7 @@ age: 58
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: richie wenton
 wins: 24
 looses: 6
@@ -318,6 +350,7 @@ age: 54
 country: United Kingdom
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: scott welch
 wins: 22
 looses: 4
@@ -328,6 +361,7 @@ age: 54
 country: United Kingdom
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: gerald washington
 wins: 20
 looses: 4
@@ -338,6 +372,7 @@ age: 40
 country: United States
 height_cm: 198.12
 reach_cm: 208.0006
+
 name: andre ward
 wins: 32
 looses: 0
@@ -348,6 +383,7 @@ age: 38
 country: United States
 height_cm: 182.88
 reach_cm: 180.0098
+
 name: micky ward
 wins: 38
 looses: 13
@@ -358,6 +394,7 @@ age: 56
 country: United States
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: otto wallin
 wins: 20
 looses: 1
@@ -368,6 +405,7 @@ age: 31
 country: Sweden
 height_cm: 196.9008
 reach_cm: 197.99300000000002
+
 name: anaclet wamba
 wins: 46
 looses: 2
@@ -378,6 +416,7 @@ age: 62
 country: France
 height_cm: 189.89040000000003
 reach_cm: 192.9892
+
 name: nicholas walters
 wins: 26
 looses: 1
@@ -388,6 +427,7 @@ age: 36
 country: Jamaica
 height_cm: 170.07840000000002
 reach_cm: 184.9882
+
 name: jersey joe walcott
 wins: 51
 looses: 18
@@ -398,6 +438,7 @@ age: 108
 country: United States
 height_cm: 182.88
 reach_cm: 188.0108
+
 name: mickey walker
 wins: 131
 looses: 26
@@ -408,6 +449,7 @@ age: 121
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: mariusz wach
 wins: 34
 looses: 6
@@ -418,6 +460,7 @@ age: 42
 country: Poland
 height_cm: 202.0824
 reach_cm: 208.0006
+
 name: rose volante
 wins: 14
 looses: 1
@@ -428,6 +471,7 @@ age: 34
 country: Brazil
 height_cm: 166.116
 reach_cm: 170.9928
+
 name: brian viloria
 wins: 36
 looses: 6
@@ -438,6 +482,7 @@ age: 41
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 167.9956
+
 name: felix verdejo
 wins: 27
 looses: 1
@@ -448,6 +493,7 @@ age: 29
 country: Puerto Rico
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: jose velasquez
 wins: 27
 looses: 6
@@ -458,6 +504,7 @@ age: 32
 country: Chile
 height_cm: 159.10559999999998
 reach_cm: 162.9918
+
 name: david vedder
 wins: 23
 looses: 25
@@ -468,6 +515,7 @@ age: 58
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 192.9892
+
 name: jessie vargas
 wins: 29
 looses: 3
@@ -478,6 +526,7 @@ age: 33
 country: United States
 height_cm: 178.0032
 reach_cm: 180.0098
+
 name: francisco vargas
 wins: 26
 looses: 2
@@ -488,6 +537,7 @@ age: 37
 country: Mexico
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: fernando vargas
 wins: 26
 looses: 5
@@ -498,6 +548,7 @@ age: 44
 country: United States
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: nikolay valuev
 wins: 50
 looses: 2
@@ -508,6 +559,7 @@ age: 49
 country: Russian Federation
 height_cm: 213.0552
 reach_cm: 216.00160000000002
+
 name: matt vanda
 wins: 45
 looses: 16
@@ -518,6 +570,7 @@ age: 43
 country: United States
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: oscar valdez
 wins: 28
 looses: 1
@@ -528,6 +581,7 @@ age: 31
 country: Mexico
 height_cm: 166.116
 reach_cm: 167.9956
+
 name: rodrigo valdes
 wins: 64
 looses: 8
@@ -538,6 +592,7 @@ age: 75
 country: Colombia
 height_cm: 177.0888
 reach_cm: 175.00600000000003
+
 name: yordenis ugas
 wins: 25
 looses: 4
@@ -548,6 +603,7 @@ age: 36
 country: Cuba
 height_cm: 174.95520000000002
 reach_cm: 175.00600000000003
+
 name: mike tyson
 wins: 50
 looses: 6
@@ -558,6 +614,7 @@ age: 56
 country: United States
 height_cm: 178.0032
 reach_cm: 180.0098
+
 name: randolph turpin
 wins: 66
 looses: 8
@@ -568,6 +625,7 @@ age: 94
 country: United Kingdom
 height_cm: 177.0888
 reach_cm: 189.0014
+
 name: gene tunney
 wins: 79
 looses: 1
@@ -578,6 +636,7 @@ age: 125
 country: United States
 height_cm: 182.88
 reach_cm: 192.9892
+
 name: david tua
 wins: 52
 looses: 5
@@ -588,6 +647,7 @@ age: 49
 country: New Zealand
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: tony tubbs
 wins: 48
 looses: 9
@@ -598,6 +658,7 @@ age: 64
 country: United States
 height_cm: 189.89040000000003
 reach_cm: 200.9902
+
 name: kostya tszyu
 wins: 31
 looses: 2
@@ -608,6 +669,7 @@ age: 52
 country: Australia
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: rex tso
 wins: 15
 looses: 0
@@ -618,6 +680,7 @@ age: 35
 country: Hong Kong
 height_cm: 170.07840000000002
 reach_cm: 177.0126
+
 name: courage tshabalala
 wins: 26
 looses: 4
@@ -628,6 +691,7 @@ age: 51
 country: South Africa
 height_cm: 188.976
 reach_cm: 205.994
+
 name: caleb truax
 wins: 31
 looses: 5
@@ -638,6 +702,7 @@ age: 38
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: austin trout
 wins: 32
 looses: 5
@@ -648,6 +713,7 @@ age: 36
 country: United States
 height_cm: 177.0888
 reach_cm: 183.007
+
 name: felix trinidad
 wins: 42
 looses: 3
@@ -658,6 +724,7 @@ age: 49
 country: Puerto Rico
 height_cm: 180.1368
 reach_cm: 183.9976
+
 name: jose torres
 wins: 41
 looses: 3
@@ -668,6 +735,7 @@ age: 86
 country: Puerto Rico
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: james toney
 wins: 76
 looses: 9
@@ -678,6 +746,7 @@ age: 53
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: fabrice tiozzo
 wins: 48
 looses: 2
@@ -688,6 +757,7 @@ age: 53
 country: France
 height_cm: 185.01360000000003
 reach_cm: 183.007
+
 name: james tillis
 wins: 42
 looses: 22
@@ -698,6 +768,7 @@ age: 65
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 202.9968
+
 name: dick tiger
 wins: 60
 looses: 19
@@ -708,6 +779,7 @@ age: 93
 country: Nigeria
 height_cm: 173.1264
 reach_cm: 180.0098
+
 name: dave tiberi
 wins: 22
 looses: 3
@@ -718,6 +790,7 @@ age: 55
 country: United States
 height_cm: 178.9176
 reach_cm: 183.9976
+
 name: keith thurman
 wins: 29
 looses: 1
@@ -728,6 +801,7 @@ age: 33
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: glenn thomas
 wins: 29
 looses: 8
@@ -738,6 +812,7 @@ age: 59
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: lionell thompson
 wins: 22
 looses: 5
@@ -748,6 +823,7 @@ age: 37
 country: United States
 height_cm: 180.1368
 reach_cm: 191.008
+
 name: zolani tete
 wins: 27
 looses: 4
@@ -758,6 +834,7 @@ age: 34
 country: South Africa
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: lew tendler
 wins: 145
 looses: 16
@@ -768,6 +845,7 @@ age: 123
 country: United States
 height_cm: 167.9448
 reach_cm: 178.0032
+
 name: patrick teixeira
 wins: 30
 looses: 1
@@ -778,6 +856,7 @@ age: 31
 country: Brazil
 height_cm: 181.9656
 reach_cm: 194.0052
+
 name: josh taylor
 wins: 17
 looses: 0
@@ -788,6 +867,7 @@ age: 31
 country: United Kingdom
 height_cm: 178.0032
 reach_cm: 177.0126
+
 name: meldrick taylor
 wins: 38
 looses: 8
@@ -798,6 +878,7 @@ age: 55
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 167.9956
+
 name: jermain taylor
 wins: 33
 looses: 4
@@ -808,6 +889,7 @@ age: 44
 country: United States
 height_cm: 180.1368
 reach_cm: 189.0014
+
 name: thomas tate
 wins: 41
 looses: 7
@@ -818,6 +900,7 @@ age: 56
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: antonio tarver
 wins: 30
 looses: 6
@@ -828,6 +911,7 @@ age: 53
 country: United States
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: frankie swindell
 wins: 37
 looses: 24
@@ -838,6 +922,7 @@ age: 58
 country: United States
 height_cm: 178.0032
 reach_cm: 184.9882
+
 name: imre szello
 wins: 24
 looses: 1
@@ -848,6 +933,7 @@ age: 39
 country: Hungary
 height_cm: 185.01360000000003
 reach_cm: 189.992
+
 name: andy tabanas
 wins: 40
 looses: 5
@@ -858,6 +944,7 @@ age: 52
 country: Philippines
 height_cm: 156.972
 reach_cm: 159.99460000000002
+
 name: bermane stiverne
 wins: 26
 looses: 3
@@ -868,6 +955,7 @@ age: 43
 country: Canada
 height_cm: 188.0616
 reach_cm: 202.9968
+
 name: shakur stevenson
 wins: 14
 looses: 0
@@ -878,6 +966,7 @@ age: 25
 country: United States
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: curtis stevens
 wins: 30
 looses: 7
@@ -888,6 +977,7 @@ age: 37
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 181.991
+
 name: adonis stevenson
 wins: 29
 looses: 2
@@ -898,6 +988,7 @@ age: 44
 country: Canada
 height_cm: 180.1368
 reach_cm: 196.0118
+
 name: freddie steele
 wins: 123
 looses: 5
@@ -908,6 +999,7 @@ age: 109
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: marlon starling
 wins: 45
 looses: 6
@@ -918,6 +1010,7 @@ age: 62
 country: United States
 height_cm: 173.1264
 reach_cm: 184.9882
+
 name: james stanton
 wins: 17
 looses: 6
@@ -928,6 +1021,7 @@ age: 49
 country: United States
 height_cm: 188.0616
 reach_cm: 196.0118
+
 name: bill squires
 wins: 20
 looses: 11
@@ -938,6 +1032,7 @@ age: 143
 country: Australia
 height_cm: 178.9176
 reach_cm: 178.0032
+
 name: michael spinks
 wins: 31
 looses: 1
@@ -948,6 +1043,7 @@ age: 66
 country: United States
 height_cm: 188.976
 reach_cm: 192.9892
+
 name: errol spence jr
 wins: 26
 looses: 0
@@ -958,6 +1054,7 @@ age: 32
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: humberto soto
 wins: 69
 looses: 10
@@ -968,6 +1065,7 @@ age: 42
 country: Mexico
 height_cm: 171.9072
 reach_cm: 175.00600000000003
+
 name: billy soose
 wins: 34
 looses: 6
@@ -978,6 +1076,7 @@ age: 107
 country: United States
 height_cm: 184.0992
 reach_cm: 184.9882
+
 name: liborio solis
 wins: 30
 looses: 6
@@ -988,6 +1087,7 @@ age: 40
 country: Venezuela, Bolivarian Republic of
 height_cm: 163.9824
 reach_cm: 172.9994
+
 name: renaldo snipes
 wins: 39
 looses: 8
@@ -998,6 +1098,7 @@ age: 66
 country: United States
 height_cm: 188.0616
 reach_cm: 197.99300000000002
+
 name: james smith
 wins: 44
 looses: 17
@@ -1008,6 +1109,7 @@ age: 69
 country: United States
 height_cm: 192.9384
 reach_cm: 208.0006
+
 name: buck smith
 wins: 180
 looses: 20
@@ -1018,6 +1120,7 @@ age: 57
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 172.9994
+
 name: oleydong sithsamerchai
 wins: 55
 looses: 2
@@ -1028,6 +1131,7 @@ age: 37
 country: Thailand
 height_cm: 160.9344
 reach_cm: 156.0068
+
 name: dan sherry
 wins: 22
 looses: 6
@@ -1038,6 +1142,7 @@ age: 56
 country: Canada
 height_cm: 182.88
 reach_cm: 178.0032
+
 name: omar sheika
 wins: 32
 looses: 12
@@ -1048,6 +1153,7 @@ age: 45
 country: United States
 height_cm: 182.88
 reach_cm: 178.0032
+
 name: vyacheslav shabranskyy
 wins: 13
 looses: 2
@@ -1058,6 +1164,7 @@ age: 35
 country: Ukraine
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: dave shade
 wins: 155
 looses: 29
@@ -1068,6 +1175,7 @@ age: 120
 country: United States
 height_cm: 173.1264
 reach_cm: 180.0098
+
 name: ezra sellers
 wins: 29
 looses: 8
@@ -1078,6 +1186,7 @@ age: 53
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 196.0118
+
 name: lee selby
 wins: 28
 looses: 3
@@ -1088,6 +1197,7 @@ age: 35
 country: United Kingdom
 height_cm: 174.0408
 reach_cm: 175.00600000000003
+
 name: malik scott
 wins: 37
 looses: 3
@@ -1098,6 +1208,7 @@ age: 41
 country: United States
 height_cm: 192.9384
 reach_cm: 205.994
+
 name: max schmeling
 wins: 56
 looses: 10
@@ -1108,6 +1219,7 @@ age: 116
 country: Germany
 height_cm: 185.01360000000003
 reach_cm: 192.9892
+
 name: johnny saxton
 wins: 55
 looses: 9
@@ -1118,6 +1230,7 @@ age: 92
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: alex saucedo
 wins: 29
 looses: 1
@@ -1128,6 +1241,7 @@ age: 28
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: petey sarron
 wins: 110
 looses: 24
@@ -1138,6 +1252,7 @@ age: 115
 country: United States
 height_cm: 160.02
 reach_cm: 159.99460000000002
+
 name: diego ricardo santillan
 wins: 23
 looses: 3
@@ -1148,6 +1263,7 @@ age: 35
 country: Argentina
 height_cm: 160.9344
 reach_cm: 175.99660000000003
+
 name: edwin santana
 wins: 27
 looses: 5
@@ -1158,6 +1274,7 @@ age: 52
 country: Dominican Republic
 height_cm: 163.9824
 reach_cm: 170.00220000000002
+
 name: leo santa cruz
 wins: 37
 looses: 2
@@ -1168,6 +1285,7 @@ age: 34
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 175.00600000000003
+
 name: salvador sanchez
 wins: 44
 looses: 1
@@ -1178,6 +1296,7 @@ age: 63
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: orlando salido
 wins: 43
 looses: 14
@@ -1188,6 +1307,7 @@ age: 41
 country: Mexico
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: pedro saiz
 wins: 25
 looses: 9
@@ -1198,6 +1318,7 @@ age: 56
 country: Dominican Republic
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: veeraphol sahaprom
 wins: 66
 looses: 4
@@ -1208,6 +1329,7 @@ age: 53
 country: Thailand
 height_cm: 160.02
 reach_cm: 164.99839999999998
+
 name: kevin lele sadjo
 wins: 15
 looses: 0
@@ -1218,6 +1340,7 @@ age: 32
 country: France
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: sandy saddler
 wins: 144
 looses: 16
@@ -1228,6 +1351,7 @@ age: 96
 country: United States
 height_cm: 174.0408
 reach_cm: 178.0032
+
 name: andy ruiz jr
 wins: 33
 looses: 2
@@ -1238,6 +1362,7 @@ age: 32
 country: Mexico
 height_cm: 188.0616
 reach_cm: 188.0108
+
 name: gary russell jr
 wins: 31
 looses: 1
@@ -1248,6 +1373,7 @@ age: 34
 country: United States
 height_cm: 163.9824
 reach_cm: 162.9918
+
 name: john ruiz
 wins: 44
 looses: 9
@@ -1258,6 +1384,7 @@ age: 50
 country: United States
 height_cm: 188.0616
 reach_cm: 197.99300000000002
+
 name: rafael ruelas
 wins: 53
 looses: 4
@@ -1268,6 +1395,7 @@ age: 51
 country: United States
 height_cm: 180.1368
 reach_cm: 180.0098
+
 name: donovan ruddock
 wins: 39
 looses: 6
@@ -1278,6 +1406,7 @@ age: 58
 country: Canada
 height_cm: 191.1096
 reach_cm: 208.0006
+
 name: derric rossy
 wins: 30
 looses: 13
@@ -1288,6 +1417,7 @@ age: 42
 country: United States
 height_cm: 191.1096
 reach_cm: 194.0052
+
 name: barney ross
 wins: 74
 looses: 4
@@ -1298,6 +1428,7 @@ age: 112
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: gabriel rosado
 wins: 25
 looses: 12
@@ -1308,6 +1439,7 @@ age: 36
 country: United States
 height_cm: 181.9656
 reach_cm: 181.991
+
 name: maxie rosenbloom
 wins: 223
 looses: 43
@@ -1318,6 +1450,7 @@ age: 115
 country: United States
 height_cm: 178.9176
 reach_cm: 181.991
+
 name: tomas rojas
 wins: 51
 looses: 19
@@ -1328,6 +1461,7 @@ age: 42
 country: Mexico
 height_cm: 173.1264
 reach_cm: 175.99660000000003
+
 name: luis manuel rodriguez
 wins: 107
 looses: 13
@@ -1338,6 +1472,7 @@ age: 85
 country: Cuba
 height_cm: 173.1264
 reach_cm: 188.0108
+
 name: edwin rodriguez
 wins: 31
 looses: 2
@@ -1348,6 +1483,7 @@ age: 37
 country: Dominican Republic
 height_cm: 182.88
 reach_cm: 192.9892
+
 name: ray robinson
 wins: 24
 looses: 3
@@ -1358,6 +1494,7 @@ age: 36
 country: United States
 height_cm: 178.0032
 reach_cm: 197.99300000000002
+
 name: sugar ray robinson
 wins: 175
 looses: 19
@@ -1368,6 +1505,7 @@ age: 101
 country: United States
 height_cm: 180.1368
 reach_cm: 183.9976
+
 name: jose luis rivera
 wins: 18
 looses: 6
@@ -1378,6 +1516,7 @@ age: 55
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: ronny rios
 wins: 31
 looses: 3
@@ -1388,6 +1527,7 @@ age: 32
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 170.00220000000002
+
 name: guillermo rigondeaux
 wins: 20
 looses: 1
@@ -1398,6 +1538,7 @@ age: 41
 country: Cuba
 height_cm: 163.9824
 reach_cm: 167.9956
+
 name: ron richards
 wins: 95
 looses: 25
@@ -1408,6 +1549,7 @@ age: 112
 country: Australia
 height_cm: 178.9176
 reach_cm: 183.9976
+
 name: jose ribalta
 wins: 38
 looses: 17
@@ -1418,6 +1560,7 @@ age: 59
 country: Cuba
 height_cm: 195.072
 reach_cm: 202.9968
+
 name: robin reid
 wins: 42
 looses: 8
@@ -1428,6 +1571,7 @@ age: 51
 country: United Kingdom
 height_cm: 174.95520000000002
 reach_cm: 192.9892
+
 name: eric regan
 wins: 27
 looses: 4
@@ -1438,6 +1582,7 @@ age: 46
 country: United States
 height_cm: 192.9384
 reach_cm: 192.9892
+
 name: frankie randall
 wins: 58
 looses: 18
@@ -1448,6 +1593,7 @@ age: 60
 country: United States
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: sugar ramos
 wins: 55
 looses: 7
@@ -1458,6 +1604,7 @@ age: 80
 country: Cuba
 height_cm: 163.9824
 reach_cm: 172.9994
+
 name: gilberto ramirez sanchez
 wins: 40
 looses: 0
@@ -1468,6 +1615,7 @@ age: 31
 country: Mexico
 height_cm: 188.976
 reach_cm: 191.008
+
 name: jose carlos ramirez
 wins: 26
 looses: 0
@@ -1478,6 +1626,7 @@ age: 30
 country: United States
 height_cm: 178.0032
 reach_cm: 183.9976
+
 name: wesley ramey
 wins: 152
 looses: 28
@@ -1488,6 +1637,7 @@ age: 112
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 170.00220000000002
+
 name: peter quillin
 wins: 34
 looses: 2
@@ -1498,6 +1648,7 @@ age: 39
 country: United States
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: ike quartey
 wins: 38
 looses: 4
@@ -1508,6 +1659,7 @@ age: 52
 country: Ghana
 height_cm: 170.99280000000002
 reach_cm: 180.0098
+
 name: dwight muhammad qawi
 wins: 41
 looses: 11
@@ -1518,6 +1670,7 @@ age: 69
 country: United States
 height_cm: 166.116
 reach_cm: 180.0098
+
 name: ross puritty
 wins: 31
 looses: 20
@@ -1528,6 +1681,7 @@ age: 55
 country: United States
 height_cm: 191.1096
 reach_cm: 202.9968
+
 name: aaron pryor
 wins: 39
 looses: 1
@@ -1538,6 +1692,7 @@ age: 66
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: ruslan provodnikov
 wins: 25
 looses: 5
@@ -1548,6 +1703,7 @@ age: 38
 country: Russian Federation
 height_cm: 167.9448
 reach_cm: 167.9956
+
 name: david price
 wins: 23
 looses: 7
@@ -1558,6 +1714,7 @@ age: 39
 country: United Kingdom
 height_cm: 202.9968
 reach_cm: 208.0006
+
 name: alexander povetkin
 wins: 36
 looses: 2
@@ -1568,6 +1725,7 @@ age: 42
 country: Russian Federation
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: shawn porter
 wins: 30
 looses: 3
@@ -1578,6 +1736,7 @@ age: 34
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 177.0126
+
 name: michele piccirillo
 wins: 50
 looses: 5
@@ -1588,6 +1747,7 @@ age: 52
 country: Italy
 height_cm: 178.9176
 reach_cm: 181.0004
+
 name: verno phillips
 wins: 42
 looses: 11
@@ -1598,6 +1758,7 @@ age: 52
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: vince phillips
 wins: 48
 looses: 12
@@ -1608,6 +1769,7 @@ age: 59
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 178.0032
+
 name: billy petrolle
 wins: 123
 looses: 26
@@ -1618,6 +1780,7 @@ age: 117
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: lamont peterson
 wins: 35
 looses: 5
@@ -1628,6 +1791,7 @@ age: 38
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: samuel peter
 wins: 37
 looses: 9
@@ -1638,6 +1802,7 @@ age: 41
 country: Nigeria
 height_cm: 188.0616
 reach_cm: 196.0118
+
 name: eddie perkins
 wins: 75
 looses: 20
@@ -1648,6 +1813,7 @@ age: 85
 country: United States
 height_cm: 164.8968
 reach_cm: 172.9994
+
 name: paul pender
 wins: 40
 looses: 6
@@ -1658,6 +1824,7 @@ age: 92
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: willie pep
 wins: 229
 looses: 11
@@ -1668,6 +1835,7 @@ age: 99
 country: United States
 height_cm: 164.8968
 reach_cm: 172.9994
+
 name: eusebio pedroza
 wins: 41
 looses: 6
@@ -1678,6 +1846,7 @@ age: 66
 country: Panama
 height_cm: 173.1264
 reach_cm: 173.99
+
 name: juan carlos payano
 wins: 21
 looses: 3
@@ -1688,6 +1857,7 @@ age: 38
 country: Dominican Republic
 height_cm: 164.8968
 reach_cm: 164.00779999999997
+
 name: kelly pavlik
 wins: 40
 looses: 2
@@ -1698,6 +1868,7 @@ age: 40
 country: United States
 height_cm: 188.976
 reach_cm: 191.008
+
 name: floyd patterson
 wins: 55
 looses: 8
@@ -1708,6 +1879,7 @@ age: 87
 country: United States
 height_cm: 182.88
 reach_cm: 180.0098
+
 name: vic patrick
 wins: 52
 looses: 4
@@ -1718,6 +1890,7 @@ age: 102
 country: Australia
 height_cm: 170.07840000000002
 reach_cm: 172.9994
+
 name: willie pastrano
 wins: 62
 looses: 13
@@ -1728,6 +1901,7 @@ age: 86
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: jean pascal
 wins: 35
 looses: 6
@@ -1738,6 +1912,7 @@ age: 39
 country: Canada
 height_cm: 178.9176
 reach_cm: 183.007
+
 name: vic pasillas
 wins: 11
 looses: 0
@@ -1748,6 +1923,7 @@ age: 30
 country: United States
 height_cm: 164.8968
 reach_cm: 164.99839999999998
+
 name: joseph parker
 wins: 27
 looses: 2
@@ -1758,6 +1934,7 @@ age: 30
 country: New Zealand
 height_cm: 192.9384
 reach_cm: 192.9892
+
 name: ambrose palmer
 wins: 57
 looses: 7
@@ -1768,6 +1945,7 @@ age: 110
 country: Australia
 height_cm: 178.9176
 reach_cm: 183.9976
+
 name: greg page
 wins: 58
 looses: 17
@@ -1778,6 +1956,7 @@ age: 63
 country: United States
 height_cm: 188.0616
 reach_cm: 205.994
+
 name: jorge paez
 wins: 80
 looses: 12
@@ -1788,6 +1967,7 @@ age: 56
 country: Mexico
 height_cm: 164.8968
 reach_cm: 172.9994
+
 name: manny pacquiao
 wins: 62
 looses: 7
@@ -1798,6 +1978,7 @@ age: 43
 country: Philippines
 height_cm: 168.85920000000002
 reach_cm: 170.00220000000002
+
 name: ken overlin
 wins: 135
 looses: 19
@@ -1808,6 +1989,7 @@ age: 112
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: sven ottke
 wins: 34
 looses: 0
@@ -1818,6 +2000,7 @@ age: 55
 country: Germany
 height_cm: 178.0032
 reach_cm: 175.00600000000003
+
 name: vergil ortiz jr
 wins: 3
 looses: 0
@@ -1828,6 +2011,7 @@ age: 24
 country: United States
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: luis ortiz
 wins: 31
 looses: 2
@@ -1838,6 +2022,7 @@ age: 43
 country: Cuba
 height_cm: 192.9384
 reach_cm: 213.0044
+
 name: manuel ortiz
 wins: 100
 looses: 28
@@ -1848,6 +2033,7 @@ age: 106
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 164.00779999999997
+
 name: pedro ortega
 wins: 31
 looses: 14
@@ -1858,6 +2044,7 @@ age: 49
 country: Mexico
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: victor ortiz
 wins: 30
 looses: 6
@@ -1868,6 +2055,7 @@ age: 35
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: antonio orozco
 wins: 28
 looses: 2
@@ -1878,6 +2066,7 @@ age: 34
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: carlos ortiz
 wins: 61
 looses: 7
@@ -1888,6 +2077,7 @@ age: 85
 country: Puerto Rico
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: thomas oosthuizen
 wins: 28
 looses: 3
@@ -1898,6 +2088,7 @@ age: 34
 country: South Africa
 height_cm: 192.9384
 reach_cm: 197.99300000000002
+
 name: bobo olson
 wins: 97
 looses: 16
@@ -1908,6 +2099,7 @@ age: 94
 country: United States
 height_cm: 178.9176
 reach_cm: 178.0032
+
 name: ruben olivares
 wins: 89
 looses: 13
@@ -1918,6 +2110,7 @@ age: 75
 country: Mexico
 height_cm: 166.116
 reach_cm: 170.00220000000002
+
 name: michael olajide
 wins: 27
 looses: 5
@@ -1928,6 +2121,7 @@ age: 58
 country: Canada
 height_cm: 185.01360000000003
 reach_cm: 196.0118
+
 name: michael nunn
 wins: 58
 looses: 4
@@ -1938,6 +2132,7 @@ age: 59
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 196.0118
+
 name: terry norris
 wins: 47
 looses: 9
@@ -1948,6 +2143,7 @@ age: 55
 country: United States
 height_cm: 177.0888
 reach_cm: 173.99
+
 name: hurshidbek normatov
 wins: 9
 looses: 0
@@ -1958,6 +2154,7 @@ age: 30
 country: Uzbekistan
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: brian nix
 wins: 18
 looses: 12
@@ -1968,6 +2165,7 @@ age: 52
 country: United States
 height_cm: 191.1096
 reach_cm: 196.0118
+
 name: patrick nielsen
 wins: 30
 looses: 3
@@ -1978,6 +2176,7 @@ age: 31
 country: Denmark
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: azumah nelson
 wins: 39
 looses: 6
@@ -1988,6 +2187,7 @@ age: 64
 country: Ghana
 height_cm: 164.8968
 reach_cm: 172.9994
+
 name: johnny nelson
 wins: 45
 looses: 12
@@ -1998,6 +2198,7 @@ age: 55
 country: United Kingdom
 height_cm: 188.976
 reach_cm: 205.994
+
 name: jose napoles
 wins: 81
 looses: 7
@@ -2008,6 +2209,7 @@ age: 82
 country: Cuba
 height_cm: 170.99280000000002
 reach_cm: 183.007
+
 name: masayoshi nakatani
 wins: 17
 looses: 1
@@ -2018,6 +2220,7 @@ age: 33
 country: Japan
 height_cm: 181.9656
 reach_cm: 180.0098
+
 name: elvir muriqi
 wins: 40
 looses: 7
@@ -2028,6 +2231,7 @@ age: 43
 country: United States
 height_cm: 178.9176
 reach_cm: 183.9976
+
 name: anthony mundine
 wins: 48
 looses: 10
@@ -2038,6 +2242,7 @@ age: 47
 country: Australia
 height_cm: 180.1368
 reach_cm: 178.0032
+
 name: eddie mustafa muhammad
 wins: 51
 looses: 8
@@ -2048,6 +2253,7 @@ age: 70
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: matthew saad muhammad
 wins: 49
 looses: 16
@@ -2058,6 +2264,7 @@ age: 68
 country: United States
 height_cm: 180.1368
 reach_cm: 191.008
+
 name: denny moyer
 wins: 97
 looses: 38
@@ -2068,6 +2275,7 @@ age: 83
 country: United States
 height_cm: 174.0408
 reach_cm: 183.007
+
 name: shane mosley
 wins: 49
 looses: 10
@@ -2078,6 +2286,7 @@ age: 50
 country: United States
 height_cm: 174.0408
 reach_cm: 180.0098
+
 name: erik morales
 wins: 52
 looses: 9
@@ -2088,6 +2297,7 @@ age: 45
 country: Mexico
 height_cm: 173.1264
 reach_cm: 183.007
+
 name: davey moore
 wins: 59
 looses: 7
@@ -2098,6 +2308,7 @@ age: 88
 country: United States
 height_cm: 159.10559999999998
 reach_cm: 164.99839999999998
+
 name: carlos monzon
 wins: 87
 looses: 3
@@ -2108,6 +2319,7 @@ age: 80
 country: Argentina
 height_cm: 181.05120000000002
 reach_cm: 192.9892
+
 name: bob montgomery
 wins: 75
 looses: 19
@@ -2118,6 +2330,7 @@ age: 103
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 180.0098
+
 name: pedro montanez
 wins: 91
 looses: 8
@@ -2128,6 +2341,7 @@ age: 108
 country: Puerto Rico
 height_cm: 164.8968
 reach_cm: 172.9994
+
 name: willie monroe jr
 wins: 24
 looses: 3
@@ -2138,6 +2352,7 @@ age: 35
 country: United States
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: eric molina
 wins: 27
 looses: 6
@@ -2148,6 +2363,7 @@ age: 40
 country: United States
 height_cm: 192.9384
 reach_cm: 197.99300000000002
+
 name: carlos molina
 wins: 28
 looses: 10
@@ -2158,6 +2374,7 @@ age: 39
 country: Mexico
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: john molina
 wins: 30
 looses: 9
@@ -2168,6 +2385,7 @@ age: 39
 country: United States
 height_cm: 178.9176
 reach_cm: 180.0098
+
 name: john john molina
 wins: 52
 looses: 7
@@ -2178,6 +2396,7 @@ age: 57
 country: Puerto Rico
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: nadjib mohammedi
 wins: 41
 looses: 6
@@ -2188,6 +2407,7 @@ age: 37
 country: France
 height_cm: 181.05120000000002
 reach_cm: 178.9938
+
 name: billy miske
 wins: 74
 looses: 13
@@ -2198,6 +2418,7 @@ age: 128
 country: United States
 height_cm: 184.0992
 reach_cm: 192.9892
+
 name: edison miranda
 wins: 36
 looses: 10
@@ -2208,6 +2429,7 @@ age: 41
 country: Colombia
 height_cm: 178.0032
 reach_cm: 197.0024
+
 name: mauro mina
 wins: 52
 looses: 3
@@ -2218,6 +2440,7 @@ age: 88
 country: Peru
 height_cm: 181.9656
 reach_cm: 188.0108
+
 name: dariusz michalczewski
 wins: 48
 looses: 2
@@ -2228,6 +2451,7 @@ age: 54
 country: Poland
 height_cm: 185.01360000000003
 reach_cm: 178.0032
+
 name: archie moore
 wins: 185
 looses: 23
@@ -2238,6 +2462,7 @@ age: 81
 country: 75.20 inches (191 cm)
 height_cm: 13.0
 reach_cm: 5.91
+
 name: aelio mesquita
 wins: 19
 looses: 5
@@ -2248,6 +2473,7 @@ age: 31
 country: Brazil
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: argenis mendez
 wins: 25
 looses: 5
@@ -2258,6 +2484,7 @@ age: 36
 country: Dominican Republic
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: kali meehan
 wins: 42
 looses: 6
@@ -2268,6 +2495,7 @@ age: 52
 country: Australia
 height_cm: 195.9864
 reach_cm: 205.994
+
 name: jimmy mclarnin
 wins: 55
 looses: 11
@@ -2278,6 +2506,7 @@ age: 114
 country: Canada
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: thabiso mchunu
 wins: 23
 looses: 5
@@ -2288,6 +2517,7 @@ age: 34
 country: South Africa
 height_cm: 180.1368
 reach_cm: 183.9976
+
 name: james mcgirt
 wins: 73
 looses: 6
@@ -2298,6 +2528,7 @@ age: 58
 country: United States
 height_cm: 168.85920000000002
 reach_cm: 178.0032
+
 name: packey mcfarland
 wins: 106
 looses: 1
@@ -2308,6 +2539,7 @@ age: 133
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 175.00600000000003
+
 name: al mccoy
 wins: 116
 looses: 31
@@ -2318,6 +2550,7 @@ age: 109
 country: United States
 height_cm: 180.1368
 reach_cm: 188.0108
+
 name: jameel mccline
 wins: 41
 looses: 13
@@ -2328,6 +2561,7 @@ age: 52
 country: United States
 height_cm: 198.12
 reach_cm: 208.0006
+
 name: mike mccallum
 wins: 49
 looses: 5
@@ -2338,6 +2572,7 @@ age: 65
 country: Jamaica
 height_cm: 181.9656
 reach_cm: 189.0014
+
 name: kevin mcbride
 wins: 35
 looses: 10
@@ -2348,6 +2583,7 @@ age: 49
 country: Ireland
 height_cm: 198.12
 reach_cm: 202.9968
+
 name: floyd mayweather jr
 wins: 50
 looses: 0
@@ -2358,6 +2594,7 @@ age: 45
 country: United States
 height_cm: 173.1264
 reach_cm: 183.007
+
 name: sandro mazzinghi
 wins: 64
 looses: 3
@@ -2368,6 +2605,7 @@ age: 83
 country: Italy
 height_cm: 173.1264
 reach_cm: 183.9976
+
 name: bernard mays
 wins: 26
 looses: 1
@@ -2378,6 +2616,7 @@ age: 62
 country: United States
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: joey maxim
 wins: 82
 looses: 29
@@ -2388,6 +2627,7 @@ age: 100
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 181.991
+
 name: tami mauriello
 wins: 82
 looses: 13
@@ -2398,6 +2638,7 @@ age: 98
 country: United States
 height_cm: 181.9656
 reach_cm: 184.9882
+
 name: rocky mattioli
 wins: 64
 looses: 7
@@ -2408,6 +2649,7 @@ age: 68
 country: Italy
 height_cm: 168.85920000000002
 reach_cm: 170.00220000000002
+
 name: lucas martin matthysse
 wins: 39
 looses: 5
@@ -2418,6 +2660,7 @@ age: 39
 country: Argentina
 height_cm: 168.85920000000002
 reach_cm: 175.00600000000003
+
 name: subriel matias
 wins: 15
 looses: 0
@@ -2428,6 +2671,7 @@ age: 30
 country: Puerto Rico
 height_cm: 173.1264
 reach_cm: 181.991
+
 name: buster mathis
 wins: 30
 looses: 4
@@ -2438,6 +2682,7 @@ age: 79
 country: United States
 height_cm: 191.1096
 reach_cm: 192.9892
+
 name: oleg maskaev
 wins: 39
 looses: 7
@@ -2448,6 +2693,7 @@ age: 53
 country: Russian Federation
 height_cm: 191.1096
 reach_cm: 200.9902
+
 name: vanes martirosyan
 wins: 36
 looses: 4
@@ -2458,6 +2704,7 @@ age: 36
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: maselino masoe
 wins: 30
 looses: 6
@@ -2468,6 +2715,7 @@ age: 56
 country: New Zealand
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: sergio gabriel martinez
 wins: 52
 looses: 3
@@ -2478,6 +2726,7 @@ age: 47
 country: Argentina
 height_cm: 178.0032
 reach_cm: 184.9882
+
 name: vince martinez
 wins: 69
 looses: 8
@@ -2488,6 +2737,7 @@ age: 93
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 177.0126
+
 name: lloyd marshall
 wins: 70
 looses: 25
@@ -2498,6 +2748,7 @@ age: 108
 country: United States
 height_cm: 178.0032
 reach_cm: 189.0014
+
 name: juan manuel marquez
 wins: 56
 looses: 7
@@ -2508,6 +2759,7 @@ age: 48
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: miguel marriaga
 wins: 29
 looses: 4
@@ -2518,6 +2770,7 @@ age: 35
 country: Colombia
 height_cm: 173.1264
 reach_cm: 170.00220000000002
+
 name: rafael marquez
 wins: 41
 looses: 9
@@ -2528,6 +2781,7 @@ age: 47
 country: Mexico
 height_cm: 166.116
 reach_cm: 172.9994
+
 name: antonio margarito
 wins: 40
 looses: 8
@@ -2538,6 +2792,7 @@ age: 44
 country: Mexico
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: abner mares
 wins: 31
 looses: 3
@@ -2548,6 +2803,7 @@ age: 36
 country: Mexico
 height_cm: 163.9824
 reach_cm: 167.9956
+
 name: rocky marciano
 wins: 49
 looses: 0
@@ -2558,6 +2814,7 @@ age: 98
 country: United States
 height_cm: 178.9176
 reach_cm: 172.9994
+
 name: ernesto marcel
 wins: 40
 looses: 4
@@ -2568,6 +2825,7 @@ age: 74
 country: Panama
 height_cm: 167.9448
 reach_cm: 172.9994
+
 name: sammy mandell
 wins: 146
 looses: 26
@@ -2578,6 +2836,7 @@ age: 118
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: jim maloney
 wins: 4
 looses: 9
@@ -2588,6 +2847,7 @@ age: 55
 country: United States
 height_cm: 164.8968
 reach_cm: 170.00220000000002
+
 name: marcos rene maidana
 wins: 35
 looses: 5
@@ -2598,6 +2858,7 @@ age: 39
 country: Argentina
 height_cm: 170.07840000000002
 reach_cm: 175.00600000000003
+
 name: jessie magdaleno
 wins: 27
 looses: 1
@@ -2608,6 +2869,7 @@ age: 30
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 167.9956
+
 name: diego magdaleno
 wins: 31
 looses: 3
@@ -2618,6 +2880,7 @@ age: 35
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: yusaf mack
 wins: 31
 looses: 8
@@ -2628,6 +2891,7 @@ age: 42
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 191.008
+
 name: eddie machen
 wins: 50
 looses: 11
@@ -2638,6 +2902,7 @@ age: 90
 country: United States
 height_cm: 182.88
 reach_cm: 191.008
+
 name: enzo maccarinelli
 wins: 41
 looses: 8
@@ -2648,6 +2913,7 @@ age: 42
 country: United Kingdom
 height_cm: 192.9384
 reach_cm: 189.0014
+
 name: erickson lubin
 wins: 22
 looses: 1
@@ -2658,6 +2924,7 @@ age: 26
 country: United States
 height_cm: 180.1368
 reach_cm: 192.9892
+
 name: joe louis
 wins: 66
 looses: 3
@@ -2668,6 +2935,7 @@ age: 108
 country: United States
 height_cm: 188.0616
 reach_cm: 192.9892
+
 name: tommy loughran
 wins: 121
 looses: 32
@@ -2678,6 +2946,7 @@ age: 119
 country: United States
 height_cm: 181.9656
 reach_cm: 184.9882
+
 name: yaqui lopez
 wins: 61
 looses: 15
@@ -2688,6 +2957,7 @@ age: 71
 country: Mexico
 height_cm: 188.0616
 reach_cm: 191.008
+
 name: ricardo lopez
 wins: 51
 looses: 0
@@ -2698,6 +2968,7 @@ age: 56
 country: Mexico
 height_cm: 164.8968
 reach_cm: 164.99839999999998
+
 name: josesito lopez
 wins: 37
 looses: 8
@@ -2708,6 +2979,7 @@ age: 38
 country: United States
 height_cm: 177.0888
 reach_cm: 175.00600000000003
+
 name: jose luis lopez
 wins: 51
 looses: 5
@@ -2718,6 +2990,7 @@ age: 49
 country: Mexico
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: duilio loi
 wins: 115
 looses: 3
@@ -2728,6 +3001,7 @@ age: 93
 country: Italy
 height_cm: 163.9824
 reach_cm: 175.00600000000003
+
 name: vasyl lomachenko
 wins: 14
 looses: 2
@@ -2738,6 +3012,7 @@ age: 34
 country: Ukraine
 height_cm: 167.9448
 reach_cm: 165.98899999999998
+
 name: sonny liston
 wins: 50
 looses: 4
@@ -2748,6 +3023,7 @@ age: 92
 country: United States
 height_cm: 184.0992
 reach_cm: 213.0044
+
 name: jorge linares
 wins: 46
 looses: 5
@@ -2758,6 +3034,7 @@ age: 37
 country: Venezuela, Bolivarian Republic of
 height_cm: 174.0408
 reach_cm: 175.99660000000003
+
 name: lennox lewis
 wins: 41
 looses: 2
@@ -2768,6 +3045,7 @@ age: 56
 country: United Kingdom
 height_cm: 195.9864
 reach_cm: 213.0044
+
 name: john henry lewis
 wins: 97
 looses: 10
@@ -2778,6 +3056,7 @@ age: 108
 country: United States
 height_cm: 180.1368
 reach_cm: 191.9986
+
 name: sugar ray leonard
 wins: 36
 looses: 3
@@ -2788,6 +3067,7 @@ age: 66
 country: United States
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: benny leonard
 wins: 185
 looses: 22
@@ -2798,6 +3078,7 @@ age: 126
 country: United States
 height_cm: 164.8968
 reach_cm: 175.00600000000003
+
 name: david lemieux
 wins: 41
 looses: 4
@@ -2808,6 +3089,7 @@ age: 33
 country: Canada
 height_cm: 177.0888
 reach_cm: 178.0032
+
 name: scott ledoux
 wins: 33
 looses: 13
@@ -2818,6 +3100,7 @@ age: 73
 country: United States
 height_cm: 187.1472
 reach_cm: 202.9968
+
 name: jose legra
 wins: 133
 looses: 11
@@ -2828,6 +3111,7 @@ age: 79
 country: Cuba
 height_cm: 173.1264
 reach_cm: 159.99460000000002
+
 name: erislandy lara
 wins: 26
 looses: 3
@@ -2838,6 +3122,7 @@ age: 39
 country: Cuba
 height_cm: 174.95520000000002
 reach_cm: 191.008
+
 name: tippy larkin
 wins: 137
 looses: 15
@@ -2848,6 +3133,7 @@ age: 104
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 180.0098
+
 name: jake lamotta
 wins: 83
 looses: 19
@@ -2858,6 +3144,7 @@ age: 101
 country: United States
 height_cm: 173.1264
 reach_cm: 170.00220000000002
+
 name: ismael laguna
 wins: 65
 looses: 9
@@ -2868,6 +3155,7 @@ age: 79
 country: Panama
 height_cm: 174.95520000000002
 reach_cm: 172.9994
+
 name: fred ladd
 wins: 45
 looses: 11
@@ -2878,6 +3166,7 @@ age: 50
 country: United States
 height_cm: 180.1368
 reach_cm: 180.0098
+
 name: fidel labarba
 wins: 73
 looses: 15
@@ -2888,6 +3177,7 @@ age: 116
 country: United States
 height_cm: 160.02
 reach_cm: 167.9956
+
 name: solly krieger
 wins: 82
 looses: 25
@@ -2898,6 +3188,7 @@ age: 113
 country: United States
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: robin krasniqi
 wins: 49
 looses: 6
@@ -2908,6 +3199,7 @@ age: 35
 country: Germany
 height_cm: 185.928
 reach_cm: 188.0108
+
 name: sergey kovalev
 wins: 34
 looses: 4
@@ -2918,6 +3210,7 @@ age: 39
 country: Russian Federation
 height_cm: 182.88
 reach_cm: 183.9976
+
 name: matt korobov
 wins: 28
 looses: 3
@@ -2928,6 +3221,7 @@ age: 39
 country: Russian Federation
 height_cm: 180.1368
 reach_cm: 178.9938
+
 name: kohei kono
 wins: 33
 looses: 11
@@ -2938,6 +3232,7 @@ age: 41
 country: Japan
 height_cm: 166.116
 reach_cm: 170.00220000000002
+
 name: wladimir klitschko
 wins: 64
 looses: 5
@@ -2948,6 +3243,7 @@ age: 46
 country: Ukraine
 height_cm: 198.12
 reach_cm: 205.994
+
 name: arthur king
 wins: 63
 looses: 13
@@ -2958,6 +3254,7 @@ age: 95
 country: Canada
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: ievgen khytrov
 wins: 19
 looses: 2
@@ -2968,6 +3265,7 @@ age: 34
 country: United States
 height_cm: 180.1368
 reach_cm: 164.99839999999998
+
 name: vitali klitschko
 wins: 45
 looses: 2
@@ -2978,6 +3276,7 @@ age: 51
 country: Ukraine
 height_cm: 200.8632
 reach_cm: 200.9902
+
 name: amir khan
 wins: 34
 looses: 5
@@ -2988,6 +3287,7 @@ age: 35
 country: United Kingdom
 height_cm: 174.0408
 reach_cm: 180.0098
+
 name: mikkel kessler
 wins: 46
 looses: 3
@@ -2998,6 +3298,7 @@ age: 43
 country: Denmark
 height_cm: 185.01360000000003
 reach_cm: 188.0108
+
 name: egidijus kavaliauskas
 wins: 22
 looses: 1
@@ -3008,6 +3309,7 @@ age: 34
 country: Lithuania
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: tomoki kameda
 wins: 36
 looses: 3
@@ -3018,6 +3320,7 @@ age: 31
 country: Japan
 height_cm: 170.07840000000002
 reach_cm: 167.9956
+
 name: louis 'kid' kaplan
 wins: 121
 looses: 23
@@ -3028,6 +3331,7 @@ age: 120
 country: United States
 height_cm: 156.972
 reach_cm: 159.00400000000002
+
 name: sumbu kalambay
 wins: 57
 looses: 6
@@ -3038,6 +3342,7 @@ age: 66
 country: Italy
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: ayub kalule
 wins: 46
 looses: 4
@@ -3048,6 +3353,7 @@ age: 68
 country: Uganda
 height_cm: 173.1264
 reach_cm: 184.9882
+
 name: zab judah
 wins: 42
 looses: 10
@@ -3058,6 +3364,7 @@ age: 44
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 183.007
+
 name: anthony joshua
 wins: 24
 looses: 1
@@ -3068,6 +3375,7 @@ age: 32
 country: United Kingdom
 height_cm: 198.12
 reach_cm: 208.30540000000002
+
 name: roy jones jr.
 wins: 66
 looses: 9
@@ -3078,6 +3386,7 @@ age: 53
 country: United States
 height_cm: 180.1368
 reach_cm: 188.0108
+
 name: tureano johnson
 wins: 21
 looses: 2
@@ -3088,6 +3397,7 @@ age: 38
 country: Bahamas
 height_cm: 178.0032
 reach_cm: 186.99480000000003
+
 name: stevie johnston
 wins: 42
 looses: 6
@@ -3098,6 +3408,7 @@ age: 49
 country: United States
 height_cm: 163.9824
 reach_cm: 173.99
+
 name: harold johnson
 wins: 76
 looses: 11
@@ -3108,6 +3419,7 @@ age: 94
 country: United States
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: dujuan johnson
 wins: 21
 looses: 3
@@ -3118,6 +3430,7 @@ age: 61
 country: United States
 height_cm: 174.0408
 reach_cm: 183.007
+
 name: glen johnson
 wins: 54
 looses: 20
@@ -3128,6 +3441,7 @@ age: 53
 country: Jamaica
 height_cm: 174.95520000000002
 reach_cm: 191.008
+
 name: chris john
 wins: 49
 looses: 1
@@ -3138,6 +3452,7 @@ age: 42
 country: Indonesia
 height_cm: 168.85920000000002
 reach_cm: 175.00600000000003
+
 name: ingemar johansson
 wins: 26
 looses: 2
@@ -3148,6 +3463,7 @@ age: 89
 country: Sweden
 height_cm: 184.0992
 reach_cm: 183.007
+
 name: eder jofre
 wins: 72
 looses: 2
@@ -3158,6 +3474,7 @@ age: 86
 country: Brazil
 height_cm: 163.06799999999998
 reach_cm: 167.9956
+
 name: bryant jennings
 wins: 24
 looses: 3
@@ -3168,6 +3485,7 @@ age: 37
 country: United States
 height_cm: 191.1096
 reach_cm: 213.0044
+
 name: ben jeby
 wins: 54
 looses: 14
@@ -3178,6 +3496,7 @@ age: 112
 country: United States
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: izzy jannazzo
 wins: 65
 looses: 46
@@ -3188,6 +3507,7 @@ age: 107
 country: United States
 height_cm: 174.0408
 reach_cm: 181.991
+
 name: phil jackson
 wins: 44
 looses: 13
@@ -3198,6 +3518,7 @@ age: 58
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 200.9902
+
 name: daniel jacobs
 wins: 36
 looses: 3
@@ -3208,6 +3529,7 @@ age: 35
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 184.9882
+
 name: beau jack
 wins: 89
 looses: 24
@@ -3218,6 +3540,7 @@ age: 101
 country: United States
 height_cm: 167.9448
 reach_cm: 173.99
+
 name: badou jack
 wins: 22
 looses: 3
@@ -3228,6 +3551,7 @@ age: 38
 country: Sweden
 height_cm: 185.01360000000003
 reach_cm: 192.9892
+
 name: david izon
 wins: 27
 looses: 6
@@ -3238,6 +3562,7 @@ age: 54
 country: Nigeria
 height_cm: 191.1096
 reach_cm: 210.99779999999998
+
 name: ryosuke iwasa
 wins: 27
 looses: 3
@@ -3248,6 +3573,7 @@ age: 32
 country: Japan
 height_cm: 170.07840000000002
 reach_cm: 178.9938
+
 name: julian jackson
 wins: 55
 looses: 6
@@ -3258,6 +3584,7 @@ age: 61
 country: Virgin Islands, U.S.
 height_cm: 181.9656
 reach_cm: 184.9882
+
 name: paul ingle
 wins: 23
 looses: 2
@@ -3268,6 +3595,7 @@ age: 50
 country: United Kingdom
 height_cm: 164.8968
 reach_cm: 170.00220000000002
+
 name: naoya inoue
 wins: 20
 looses: 0
@@ -3278,6 +3606,7 @@ age: 29
 country: Japan
 height_cm: 163.06799999999998
 reach_cm: 170.00220000000002
+
 name: charles humez
 wins: 94
 looses: 7
@@ -3288,6 +3617,7 @@ age: 95
 country: France
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: caleb hunter plant
 wins: 21
 looses: 0
@@ -3298,6 +3628,7 @@ age: 30
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 188.0108
+
 name: azat hovhannisyan
 wins: 18
 looses: 3
@@ -3308,6 +3639,7 @@ age: 34
 country: Armenia
 height_cm: 167.03040000000001
 reach_cm: 169.01160000000002
+
 name: jeff horn
 wins: 20
 looses: 2
@@ -3318,6 +3650,7 @@ age: 34
 country: Australia
 height_cm: 174.95520000000002
 reach_cm: 172.9994
+
 name: eddie hopson
 wins: 30
 looses: 2
@@ -3328,6 +3661,7 @@ age: 51
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 156.9974
+
 name: lloyd honeyghan
 wins: 43
 looses: 5
@@ -3338,6 +3672,7 @@ age: 62
 country: United Kingdom
 height_cm: 173.1264
 reach_cm: 175.00600000000003
+
 name: bernard hopkins
 wins: 55
 looses: 8
@@ -3348,6 +3683,7 @@ age: 57
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 191.008
+
 name: evander holyfield
 wins: 44
 looses: 10
@@ -3358,6 +3694,7 @@ age: 59
 country: United States
 height_cm: 188.976
 reach_cm: 197.99300000000002
+
 name: larry holmes
 wins: 69
 looses: 6
@@ -3368,6 +3705,7 @@ age: 72
 country: United States
 height_cm: 189.89040000000003
 reach_cm: 205.994
+
 name: keith holmes
 wins: 41
 looses: 5
@@ -3378,6 +3716,7 @@ age: 53
 country: United States
 height_cm: 188.0616
 reach_cm: 197.99300000000002
+
 name: dennis hogan
 wins: 28
 looses: 3
@@ -3388,6 +3727,7 @@ age: 37
 country: Australia
 height_cm: 173.1264
 reach_cm: 181.991
+
 name: hiroyuki hisataka
 wins: 23
 looses: 17
@@ -3398,6 +3738,7 @@ age: 37
 country: Japan
 height_cm: 163.9824
 reach_cm: 162.0012
+
 name: virgil hill
 wins: 50
 looses: 7
@@ -3408,6 +3749,7 @@ age: 58
 country: United States
 height_cm: 184.0992
 reach_cm: 196.0118
+
 name: freddy hernandez
 wins: 31
 looses: 9
@@ -3418,6 +3760,7 @@ age: 43
 country: Mexico
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: genaro hernandez
 wins: 38
 looses: 2
@@ -3428,6 +3771,7 @@ age: 56
 country: United States
 height_cm: 180.1368
 reach_cm: 183.007
+
 name: robert helenius
 wins: 30
 looses: 3
@@ -3438,6 +3782,7 @@ age: 38
 country: Finland
 height_cm: 199.94879999999998
 reach_cm: 200.9902
+
 name: thomas hearns
 wins: 61
 looses: 5
@@ -3448,6 +3793,7 @@ age: 63
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 197.99300000000002
+
 name: david haye
 wins: 28
 looses: 4
@@ -3458,6 +3804,7 @@ age: 41
 country: United Kingdom
 height_cm: 191.1096
 reach_cm: 197.99300000000002
+
 name: ricky hatton
 wins: 45
 looses: 3
@@ -3468,6 +3815,7 @@ age: 43
 country: United Kingdom
 height_cm: 170.99280000000002
 reach_cm: 164.99839999999998
+
 name: henry hank
 wins: 62
 looses: 31
@@ -3478,6 +3826,7 @@ age: 87
 country: United States
 height_cm: 178.0032
 reach_cm: 191.008
+
 name: naseem hamed
 wins: 36
 looses: 1
@@ -3488,6 +3837,7 @@ age: 48
 country: United Kingdom
 height_cm: 163.9824
 reach_cm: 162.9918
+
 name: richard hall
 wins: 30
 looses: 14
@@ -3498,6 +3848,7 @@ age: 50
 country: Jamaica
 height_cm: 191.1096
 reach_cm: 197.0024
+
 name: marvin hagler
 wins: 62
 looses: 3
@@ -3508,6 +3859,7 @@ age: 68
 country: United States
 height_cm: 177.0888
 reach_cm: 191.008
+
 name: stefan haertel
 wins: 18
 looses: 1
@@ -3518,6 +3870,7 @@ age: 34
 country: Germany
 height_cm: 184.0992
 reach_cm: 188.0108
+
 name: art hafey
 wins: 53
 looses: 8
@@ -3528,6 +3881,7 @@ age: 71
 country: Canada
 height_cm: 156.972
 reach_cm: 159.99460000000002
+
 name: andres gutierrez
 wins: 39
 looses: 2
@@ -3538,6 +3892,7 @@ age: 29
 country: Mexico
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: robert guerrero
 wins: 36
 looses: 6
@@ -3548,6 +3903,7 @@ age: 39
 country: United States
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: george groves
 wins: 28
 looses: 4
@@ -3558,6 +3914,7 @@ age: 34
 country: United Kingdom
 height_cm: 181.9656
 reach_cm: 183.007
+
 name: crawford grimsley
 wins: 22
 looses: 4
@@ -3568,6 +3925,7 @@ age: 55
 country: United States
 height_cm: 188.0616
 reach_cm: 196.0118
+
 name: sherman griffin
 wins: 17
 looses: 7
@@ -3578,6 +3936,7 @@ age: 59
 country: United States
 height_cm: 191.1096
 reach_cm: 197.99300000000002
+
 name: montell griffin
 wins: 50
 looses: 8
@@ -3588,6 +3947,7 @@ age: 52
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: harry greb
 wins: 262
 looses: 17
@@ -3598,6 +3958,7 @@ age: 128
 country: United States
 height_cm: 173.1264
 reach_cm: 180.0098
+
 name: mitch green
 wins: 19
 looses: 6
@@ -3608,6 +3969,7 @@ age: 65
 country: United States
 height_cm: 195.9864
 reach_cm: 208.0006
+
 name: rocky graziano
 wins: 67
 looses: 10
@@ -3618,6 +3980,7 @@ age: 103
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 173.99
+
 name: emile griffith
 wins: 85
 looses: 24
@@ -3628,6 +3991,7 @@ age: 84
 country: Virgin Islands, U.S.
 height_cm: 170.99280000000002
 reach_cm: 183.007
+
 name: michael grant
 wins: 48
 looses: 6
@@ -3638,6 +4002,7 @@ age: 50
 country: United States
 height_cm: 200.8632
 reach_cm: 218.0082
+
 name: adrian granados
 wins: 20
 looses: 8
@@ -3648,6 +4013,7 @@ age: 33
 country: Mexico
 height_cm: 174.95520000000002
 reach_cm: 188.0108
+
 name: herol graham
 wins: 48
 looses: 6
@@ -3658,6 +4024,7 @@ age: 62
 country: United Kingdom
 height_cm: 181.9656
 reach_cm: 196.0118
+
 name: jhonny gonzalez
 wins: 68
 looses: 11
@@ -3668,6 +4035,7 @@ age: 40
 country: Mexico
 height_cm: 168.85920000000002
 reach_cm: 175.00600000000003
+
 name: miguel angel gonzalez
 wins: 51
 looses: 5
@@ -3678,6 +4046,7 @@ age: 51
 country: Mexico
 height_cm: 174.0408
 reach_cm: 172.9994
+
 name: roman gonzalez
 wins: 49
 looses: 2
@@ -3688,6 +4057,7 @@ age: 35
 country: Nicaragua
 height_cm: 160.02
 reach_cm: 162.9918
+
 name: roberto gonzales
 wins: 24
 looses: 3
@@ -3698,6 +4068,7 @@ age: 31
 country: Philippines
 height_cm: 167.9448
 reach_cm: 156.9974
+
 name: juan carlos gomez
 wins: 55
 looses: 4
@@ -3708,6 +4079,7 @@ age: 49
 country: Cuba
 height_cm: 192.024
 reach_cm: 204.0128
+
 name: gennady golovkin
 wins: 41
 looses: 1
@@ -3718,6 +4090,7 @@ age: 40
 country: Kazakhstan
 height_cm: 178.9176
 reach_cm: 178.0032
+
 name: mike gibbons
 wins: 113
 looses: 11
@@ -3728,6 +4101,7 @@ age: 135
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: tommy gibbons
 wins: 95
 looses: 5
@@ -3738,6 +4112,7 @@ age: 131
 country: United States
 height_cm: 184.0992
 reach_cm: 188.0108
+
 name: noel gevor
 wins: 24
 looses: 2
@@ -3748,6 +4123,7 @@ age: 31
 country: Germany
 height_cm: 188.976
 reach_cm: 191.008
+
 name: kid gavilan
 wins: 108
 looses: 30
@@ -3758,6 +4134,7 @@ age: 96
 country: Cuba
 height_cm: 178.9176
 reach_cm: 180.0098
+
 name: jason gavern
 wins: 27
 looses: 21
@@ -3768,6 +4145,7 @@ age: 45
 country: United States
 height_cm: 188.0616
 reach_cm: 192.9892
+
 name: terrell gausha
 wins: 21
 looses: 1
@@ -3778,6 +4156,7 @@ age: 34
 country: United States
 height_cm: 178.0032
 reach_cm: 186.99480000000003
+
 name: arturo gatti
 wins: 40
 looses: 9
@@ -3788,6 +4167,7 @@ age: 50
 country: Canada
 height_cm: 170.99280000000002
 reach_cm: 178.0032
+
 name: ceferino garcia
 wins: 118
 looses: 30
@@ -3798,6 +4178,7 @@ age: 115
 country: Philippines
 height_cm: 167.9448
 reach_cm: 178.0032
+
 name: mikey garcia
 wins: 40
 looses: 1
@@ -3808,6 +4189,7 @@ age: 34
 country: United States
 height_cm: 167.9448
 reach_cm: 172.9994
+
 name: danny garcia
 wins: 36
 looses: 2
@@ -3818,6 +4200,7 @@ age: 34
 country: United States
 height_cm: 174.0408
 reach_cm: 173.99
+
 name: yuriorkis gamboa
 wins: 30
 looses: 3
@@ -3828,6 +4211,7 @@ age: 40
 country: Cuba
 height_cm: 166.116
 reach_cm: 164.99839999999998
+
 name: victor galindez
 wins: 55
 looses: 9
@@ -3838,6 +4222,7 @@ age: 73
 country: Argentina
 height_cm: 177.0888
 reach_cm: 183.9976
+
 name: tyson fury
 wins: 30
 looses: 0
@@ -3848,6 +4233,7 @@ age: 34
 country: United Kingdom
 height_cm: 206.0448
 reach_cm: 216.00160000000002
+
 name: gene fullmer
 wins: 55
 looses: 6
@@ -3858,6 +4244,7 @@ age: 91
 country: United States
 height_cm: 173.1264
 reach_cm: 175.00600000000003
+
 name: sammy fuller
 wins: 55
 looses: 18
@@ -3868,6 +4255,7 @@ age: 116
 country: United States
 height_cm: 160.9344
 reach_cm: 156.9974
+
 name: vitor jones freitas
 wins: 17
 looses: 5
@@ -3878,6 +4266,7 @@ age: 29
 country: Brazil
 height_cm: 171.9072
 reach_cm: 173.99
+
 name: acelino freitas
 wins: 39
 looses: 2
@@ -3888,6 +4277,7 @@ age: 46
 country: Brazil
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: joe frazier
 wins: 32
 looses: 4
@@ -3898,6 +4288,7 @@ age: 78
 country: United States
 height_cm: 181.9656
 reach_cm: 184.9882
+
 name: tommy freeman
 wins: 181
 looses: 20
@@ -3908,6 +4299,7 @@ age: 118
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 178.0032
+
 name: jermaine franklin
 wins: 20
 looses: 0
@@ -3918,6 +4310,7 @@ age: 28
 country: United States
 height_cm: 188.0616
 reach_cm: 196.0118
+
 name: stacy frazier
 wins: 16
 looses: 17
@@ -3928,6 +4321,7 @@ age: 51
 country: United States
 height_cm: 195.9864
 reach_cm: 210.99779999999998
+
 name: carl frampton
 wins: 27
 looses: 2
@@ -3938,6 +4332,7 @@ age: 35
 country: United Kingdom
 height_cm: 164.8968
 reach_cm: 156.9974
+
 name: joshua franco
 wins: 15
 looses: 1
@@ -3948,6 +4343,7 @@ age: 26
 country: United States
 height_cm: 164.8968
 reach_cm: 170.00220000000002
+
 name: tiger jack fox
 wins: 139
 looses: 23
@@ -3958,6 +4354,7 @@ age: 115
 country: United States
 height_cm: 181.9656
 reach_cm: 191.008
+
 name: drian francisco
 wins: 28
 looses: 6
@@ -3968,6 +4365,7 @@ age: 39
 country: Philippines
 height_cm: 164.8968
 reach_cm: 164.99839999999998
+
 name: bob foster
 wins: 56
 looses: 8
@@ -3978,6 +4376,7 @@ age: 84
 country: United States
 height_cm: 191.1096
 reach_cm: 200.9902
+
 name: carl froch
 wins: 33
 looses: 2
@@ -3988,6 +4387,7 @@ age: 45
 country: United Kingdom
 height_cm: 185.01360000000003
 reach_cm: 191.008
+
 name: javier fortuna
 wins: 36
 looses: 2
@@ -3998,6 +4398,7 @@ age: 33
 country: Dominican Republic
 height_cm: 168.85920000000002
 reach_cm: 173.99
+
 name: george foreman
 wins: 76
 looses: 5
@@ -4008,6 +4409,7 @@ age: 73
 country: United States
 height_cm: 192.024
 reach_cm: 199.009
+
 name: vernon forrest
 wins: 41
 looses: 3
@@ -4018,6 +4420,7 @@ age: 51
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: tiger flowers
 wins: 134
 looses: 17
@@ -4028,6 +4431,7 @@ age: 129
 country: United States
 height_cm: 178.0032
 reach_cm: 192.9892
+
 name: zora folley
 wins: 79
 looses: 11
@@ -4038,6 +4442,7 @@ age: 91
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 196.0118
+
 name: bj flores
 wins: 32
 looses: 4
@@ -4048,6 +4453,7 @@ age: 43
 country: United States
 height_cm: 188.0616
 reach_cm: 202.9968
+
 name: omar figueroa
 wins: 28
 looses: 1
@@ -4058,6 +4464,7 @@ age: 32
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 184.9882
+
 name: jackie fields
 wins: 74
 looses: 9
@@ -4068,6 +4475,7 @@ age: 114
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: tevin farmer
 wins: 30
 looses: 5
@@ -4078,6 +4486,7 @@ age: 32
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: esquiva falcao
 wins: 27
 looses: 0
@@ -4088,6 +4497,7 @@ age: 32
 country: Brazil
 height_cm: 178.0032
 reach_cm: 184.9882
+
 name: chris eubank jr
 wins: 29
 looses: 2
@@ -4098,6 +4508,7 @@ age: 32
 country: United Kingdom
 height_cm: 180.1368
 reach_cm: 183.9976
+
 name: juan francisco estrada
 wins: 41
 looses: 3
@@ -4108,6 +4519,7 @@ age: 32
 country: Mexico
 height_cm: 163.06799999999998
 reach_cm: 167.9956
+
 name: chris eubank
 wins: 46
 looses: 5
@@ -4118,6 +4530,7 @@ age: 56
 country: United Kingdom
 height_cm: 178.0032
 reach_cm: 184.9882
+
 name: jaron ennis
 wins: 25
 looses: 0
@@ -4128,6 +4541,7 @@ age: 25
 country: United States
 height_cm: 178.0032
 reach_cm: 188.0108
+
 name: flash elorde
 wins: 89
 looses: 27
@@ -4138,6 +4552,7 @@ age: 87
 country: Philippines
 height_cm: 167.03040000000001
 reach_cm: 172.9994
+
 name: davi eliasquevici
 wins: 13
 looses: 8
@@ -4148,6 +4563,7 @@ age: 33
 country: Brazil
 height_cm: 174.95520000000002
 reach_cm: 175.99660000000003
+
 name: roberto duran
 wins: 103
 looses: 16
@@ -4158,6 +4574,7 @@ age: 71
 country: Panama
 height_cm: 170.07840000000002
 reach_cm: 167.9956
+
 name: serhiy dzinziruk
 wins: 37
 looses: 2
@@ -4168,6 +4585,7 @@ age: 46
 country: Ukraine
 height_cm: 182.88
 reach_cm: 172.9994
+
 name: olanrewaju durodola
 wins: 31
 looses: 7
@@ -4178,6 +4596,7 @@ age: 41
 country: Nigeria
 height_cm: 188.0616
 reach_cm: 197.0024
+
 name: ralph dupas
 wins: 106
 looses: 23
@@ -4188,6 +4607,7 @@ age: 86
 country: United States
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: colin dunne
 wins: 38
 looses: 3
@@ -4198,6 +4618,7 @@ age: 51
 country: United Kingdom
 height_cm: 168.85920000000002
 reach_cm: 172.9994
+
 name: vince dundee
 wins: 122
 looses: 21
@@ -4208,6 +4629,7 @@ age: 114
 country: United States
 height_cm: 173.1264
 reach_cm: 180.0098
+
 name: thomas dulorme
 wins: 25
 looses: 4
@@ -4218,6 +4640,7 @@ age: 32
 country: Puerto Rico
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: terry downes
 wins: 35
 looses: 9
@@ -4228,6 +4651,7 @@ age: 86
 country: United Kingdom
 height_cm: 174.95520000000002
 reach_cm: 175.00600000000003
+
 name: yunier dorticos
 wins: 24
 looses: 1
@@ -4238,6 +4662,7 @@ age: 36
 country: Cuba
 height_cm: 191.1096
 reach_cm: 202.9968
+
 name: nonito donaire
 wins: 40
 looses: 6
@@ -4248,6 +4673,7 @@ age: 39
 country: Philippines
 height_cm: 166.116
 reach_cm: 172.9994
+
 name: tj doheny
 wins: 22
 looses: 1
@@ -4258,6 +4684,7 @@ age: 35
 country: Australia
 height_cm: 167.9448
 reach_cm: 167.9956
+
 name: scott dixon
 wins: 37
 looses: 10
@@ -4268,6 +4695,7 @@ age: 45
 country: United Kingdom
 height_cm: 182.88
 reach_cm: 192.9892
+
 name: isaac dogboe
 wins: 19
 looses: 2
@@ -4278,6 +4706,7 @@ age: 27
 country: Ghana
 height_cm: 156.972
 reach_cm: 167.9956
+
 name: andre dirrell
 wins: 26
 looses: 3
@@ -4288,6 +4717,7 @@ age: 38
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 191.008
+
 name: anthony dirrell
 wins: 33
 looses: 2
@@ -4298,6 +4728,7 @@ age: 37
 country: United States
 height_cm: 184.0992
 reach_cm: 189.0014
+
 name: christopher diaz
 wins: 26
 looses: 2
@@ -4308,6 +4739,7 @@ age: 27
 country: Puerto Rico
 height_cm: 167.9448
 reach_cm: 162.9918
+
 name: juan diaz
 wins: 41
 looses: 4
@@ -4318,6 +4750,7 @@ age: 38
 country: United States
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: joseph diaz
 wins: 31
 looses: 1
@@ -4328,6 +4761,7 @@ age: 29
 country: United States
 height_cm: 167.9448
 reach_cm: 162.9918
+
 name: jack dempsey
 wins: 59
 looses: 6
@@ -4338,6 +4772,7 @@ age: 127
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 196.0118
+
 name: sergiy derevyanchenko
 wins: 13
 looses: 2
@@ -4348,6 +4783,7 @@ age: 36
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 170.9928
+
 name: paddy demarco
 wins: 75
 looses: 26
@@ -4358,6 +4794,7 @@ age: 94
 country: United States
 height_cm: 167.9448
 reach_cm: 178.0032
+
 name: antonio demarco
 wins: 33
 looses: 8
@@ -4368,6 +4805,7 @@ age: 36
 country: Mexico
 height_cm: 178.0032
 reach_cm: 180.0098
+
 name: diego de la hoya
 wins: 22
 looses: 1
@@ -4378,6 +4816,7 @@ age: 28
 country: Mexico
 height_cm: 167.9448
 reach_cm: 172.9994
+
 name: esteban de jesus
 wins: 58
 looses: 5
@@ -4388,6 +4827,7 @@ age: 71
 country: Puerto Rico
 height_cm: 163.9824
 reach_cm: 170.00220000000002
+
 name: freddie dawson
 wins: 102
 looses: 14
@@ -4398,6 +4838,7 @@ age: 98
 country: United States
 height_cm: 167.9448
 reach_cm: 173.99
+
 name: chad dawson
 wins: 35
 looses: 5
@@ -4408,6 +4849,7 @@ age: 40
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 194.0052
+
 name: oscar de la hoya
 wins: 39
 looses: 6
@@ -4418,6 +4860,7 @@ age: 49
 country: United States
 height_cm: 178.9176
 reach_cm: 184.9882
+
 name: les darcy
 wins: 46
 looses: 4
@@ -4428,6 +4871,7 @@ age: 126
 country: Australia
 height_cm: 167.9448
 reach_cm: 180.0098
+
 name: jack culcay
 wins: 29
 looses: 4
@@ -4438,6 +4882,7 @@ age: 36
 country: Germany
 height_cm: 170.07840000000002
 reach_cm: 164.99839999999998
+
 name: donald curry
 wins: 34
 looses: 6
@@ -4448,6 +4893,7 @@ age: 60
 country: United States
 height_cm: 177.0888
 reach_cm: 183.007
+
 name: steve cunningham
 wins: 28
 looses: 9
@@ -4458,6 +4904,7 @@ age: 46
 country: United States
 height_cm: 189.89040000000003
 reach_cm: 208.0006
+
 name: alfredo cuevas
 wins: 26
 looses: 10
@@ -4468,6 +4915,7 @@ age: 52
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: pipino cuevas
 wins: 35
 looses: 15
@@ -4478,6 +4926,7 @@ age: 64
 country: Mexico
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: jesus marcelo andres cuellar
 wins: 29
 looses: 4
@@ -4488,6 +4937,7 @@ age: 35
 country: Argentina
 height_cm: 164.8968
 reach_cm: 180.0098
+
 name: terence crawford
 wins: 37
 looses: 0
@@ -4498,6 +4948,7 @@ age: 34
 country: United States
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: anthony crolla
 wins: 35
 looses: 7
@@ -4508,6 +4959,7 @@ age: 35
 country: United Kingdom
 height_cm: 174.0408
 reach_cm: 170.00220000000002
+
 name: miguel cotto
 wins: 41
 looses: 6
@@ -4518,6 +4970,7 @@ age: 41
 country: Puerto Rico
 height_cm: 170.07840000000002
 reach_cm: 170.00220000000002
+
 name: jezreel corrales
 wins: 22
 looses: 2
@@ -4528,6 +4981,7 @@ age: 31
 country: Panama
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: diego corrales
 wins: 40
 looses: 5
@@ -4538,6 +4992,7 @@ age: 44
 country: United States
 height_cm: 178.9176
 reach_cm: 178.0032
+
 name: marvin cordova jr
 wins: 21
 looses: 2
@@ -4548,6 +5003,7 @@ age: 37
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: billy conn
 wins: 64
 looses: 11
@@ -4558,6 +5014,7 @@ age: 104
 country: United States
 height_cm: 187.1472
 reach_cm: 183.9976
+
 name: steve collins
 wins: 36
 looses: 3
@@ -4568,6 +5025,7 @@ age: 58
 country: Ireland
 height_cm: 182.88
 reach_cm: 180.0098
+
 name: derrell coley
 wins: 39
 looses: 2
@@ -4578,6 +5036,7 @@ age: 52
 country: United States
 height_cm: 180.1368
 reach_cm: 191.008
+
 name: luis collazo
 wins: 39
 looses: 8
@@ -4588,6 +5047,7 @@ age: 41
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: curtis cokes
 wins: 62
 looses: 14
@@ -4598,6 +5058,7 @@ age: 85
 country: United States
 height_cm: 173.1264
 reach_cm: 184.9882
+
 name: gerrie coetzee
 wins: 33
 looses: 6
@@ -4608,6 +5069,7 @@ age: 67
 country: South Africa
 height_cm: 188.976
 reach_cm: 205.994
+
 name: jerome coffee
 wins: 36
 looses: 13
@@ -4618,6 +5080,7 @@ age: 64
 country: United States
 height_cm: 168.85920000000002
 reach_cm: 167.9956
+
 name: justin clements
 wins: 33
 looses: 16
@@ -4628,6 +5091,7 @@ age: 50
 country: Australia
 height_cm: 185.928
 reach_cm: 184.9882
+
 name: fedor chudinov
 wins: 21
 looses: 3
@@ -4638,6 +5102,7 @@ age: 34
 country: Russian Federation
 height_cm: 177.0888
 reach_cm: 183.007
+
 name: isaac chilemba
 wins: 26
 looses: 7
@@ -4648,6 +5113,7 @@ age: 35
 country: Malawi
 height_cm: 185.01360000000003
 reach_cm: 184.9882
+
 name: anton christoforidis
 wins: 54
 looses: 15
@@ -4658,6 +5124,7 @@ age: 105
 country: Greece
 height_cm: 173.1264
 reach_cm: 183.007
+
 name: kid chocolate
 wins: 136
 looses: 10
@@ -4668,6 +5135,7 @@ age: 112
 country: Cuba
 height_cm: 167.9448
 reach_cm: 164.99839999999998
+
 name: dereck chisora
 wins: 32
 looses: 10
@@ -4678,6 +5146,7 @@ age: 38
 country: United Kingdom
 height_cm: 187.1472
 reach_cm: 188.0108
+
 name: julio cesar chavez jr
 wins: 51
 looses: 4
@@ -4688,6 +5157,7 @@ age: 36
 country: Mexico
 height_cm: 185.01360000000003
 reach_cm: 184.9882
+
 name: jesus chavez
 wins: 44
 looses: 8
@@ -4698,6 +5168,7 @@ age: 49
 country: Mexico
 height_cm: 164.8968
 reach_cm: 164.99839999999998
+
 name: julio cesar chavez
 wins: 107
 looses: 6
@@ -4708,6 +5179,7 @@ age: 60
 country: Mexico
 height_cm: 170.99280000000002
 reach_cm: 169.01160000000002
+
 name: dave charnley
 wins: 48
 looses: 12
@@ -4718,6 +5190,7 @@ age: 86
 country: United Kingdom
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: jermall charlo
 wins: 30
 looses: 0
@@ -4728,6 +5201,7 @@ age: 32
 country: United States
 height_cm: 182.88
 reach_cm: 186.99480000000003
+
 name: ezzard charles
 wins: 93
 looses: 25
@@ -4738,6 +5212,7 @@ age: 101
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: eddie chambers
 wins: 40
 looses: 5
@@ -4748,6 +5223,7 @@ age: 40
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 191.008
+
 name: jermell charlo
 wins: 35
 looses: 1
@@ -4758,6 +5234,7 @@ age: 32
 country: United States
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: ruslan chagaev
 wins: 34
 looses: 3
@@ -4768,6 +5245,7 @@ age: 43
 country: Uzbekistan
 height_cm: 180.1368
 reach_cm: 188.0108
+
 name: antonio cervantes
 wins: 91
 looses: 12
@@ -4778,6 +5256,7 @@ age: 76
 country: Colombia
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: hugo centeno jr
 wins: 27
 looses: 3
@@ -4788,6 +5267,7 @@ age: 31
 country: United States
 height_cm: 187.1472
 reach_cm: 191.9986
+
 name: julio ceja
 wins: 32
 looses: 4
@@ -4798,6 +5278,7 @@ age: 29
 country: Mexico
 height_cm: 166.116
 reach_cm: 161.0106
+
 name: jose cayetano
 wins: 21
 looses: 7
@@ -4808,6 +5289,7 @@ age: 35
 country: Mexico
 height_cm: 164.8968
 reach_cm: 167.9956
+
 name: celex antonio castro
 wins: 2
 looses: 0
@@ -4818,6 +5300,7 @@ age: 22
 country: Mexico
 height_cm: 173.1264
 reach_cm: 175.99660000000003
+
 name: jose luis castillo
 wins: 66
 looses: 13
@@ -4828,6 +5311,7 @@ age: 48
 country: Mexico
 height_cm: 170.99280000000002
 reach_cm: 175.00600000000003
+
 name: rodolfo casanova
 wins: 81
 looses: 22
@@ -4838,6 +5322,7 @@ age: 107
 country: Mexico
 height_cm: 160.9344
 reach_cm: 167.9956
+
 name: joel casamayor
 wins: 38
 looses: 6
@@ -4848,6 +5333,7 @@ age: 51
 country: Cuba
 height_cm: 170.07840000000002
 reach_cm: 175.00600000000003
+
 name: jimmy carter
 wins: 81
 looses: 31
@@ -4858,6 +5344,7 @@ age: 98
 country: United States
 height_cm: 167.9448
 reach_cm: 172.9994
+
 name: dominick carter
 wins: 30
 looses: 10
@@ -4868,6 +5355,7 @@ age: 56
 country: United States
 height_cm: 182.88
 reach_cm: 184.9882
+
 name: jack carroll
 wins: 85
 looses: 11
@@ -4878,6 +5366,7 @@ age: 115
 country: Australia
 height_cm: 178.9176
 reach_cm: 183.007
+
 name: adrian carreon
 wins: 16
 looses: 0
@@ -4888,6 +5377,7 @@ age: 50
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 183.007
+
 name: blake caparello
 wins: 30
 looses: 3
@@ -4898,6 +5388,7 @@ age: 35
 country: Australia
 height_cm: 187.1472
 reach_cm: 188.0108
+
 name: tony canzoneri
 wins: 141
 looses: 24
@@ -4908,6 +5399,7 @@ age: 113
 country: United States
 height_cm: 163.06799999999998
 reach_cm: 164.99839999999998
+
 name: andrew cancio
 wins: 21
 looses: 5
@@ -4918,6 +5410,7 @@ age: 33
 country: United States
 height_cm: 167.9448
 reach_cm: 172.9994
+
 name: luke campbell
 wins: 20
 looses: 3
@@ -4928,6 +5421,7 @@ age: 34
 country: United Kingdom
 height_cm: 174.95520000000002
 reach_cm: 180.0098
+
 name: pablo cesar cano
 wins: 33
 looses: 7
@@ -4938,6 +5432,7 @@ age: 32
 country: Mexico
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: luis ramon campas
 wins: 103
 looses: 17
@@ -4948,6 +5443,7 @@ age: 51
 country: Mexico
 height_cm: 180.1368
 reach_cm: 178.0032
+
 name: joe calzaghe
 wins: 46
 looses: 0
@@ -4958,6 +5454,7 @@ age: 50
 country: United Kingdom
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: hector camacho
 wins: 79
 looses: 6
@@ -4968,6 +5465,7 @@ age: 60
 country: Puerto Rico
 height_cm: 168.85920000000002
 reach_cm: 175.00600000000003
+
 name: lucian bute
 wins: 32
 looses: 5
@@ -4978,6 +5476,7 @@ age: 42
 country: Romania
 height_cm: 187.1472
 reach_cm: 183.007
+
 name: charley burley
 wins: 83
 looses: 12
@@ -4988,6 +5487,7 @@ age: 104
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 191.008
+
 name: ricky burns
 wins: 43
 looses: 8
@@ -4998,6 +5498,7 @@ age: 39
 country: United Kingdom
 height_cm: 178.0032
 reach_cm: 178.0032
+
 name: cornelius bundrage
 wins: 35
 looses: 6
@@ -5008,6 +5509,7 @@ age: 49
 country: United States
 height_cm: 167.9448
 reach_cm: 183.007
+
 name: ken buchanan
 wins: 61
 looses: 8
@@ -5018,6 +5520,7 @@ age: 77
 country: United Kingdom
 height_cm: 170.99280000000002
 reach_cm: 178.0032
+
 name: frank bruno
 wins: 40
 looses: 5
@@ -5028,6 +5531,7 @@ age: 60
 country: United Kingdom
 height_cm: 191.1096
 reach_cm: 208.0006
+
 name: joe bugner
 wins: 69
 looses: 13
@@ -5038,6 +5542,7 @@ age: 72
 country: Australia
 height_cm: 192.9384
 reach_cm: 208.0006
+
 name: derek bryant
 wins: 20
 looses: 7
@@ -5048,6 +5553,7 @@ age: 51
 country: United States
 height_cm: 191.1096
 reach_cm: 200.9902
+
 name: simon brown
 wins: 47
 looses: 12
@@ -5058,6 +5564,7 @@ age: 59
 country: Jamaica
 height_cm: 177.0888
 reach_cm: 180.0098
+
 name: panama al brown
 wins: 132
 looses: 21
@@ -5068,6 +5575,7 @@ age: 120
 country: Panama
 height_cm: 174.95520000000002
 reach_cm: 183.9976
+
 name: glenwood brown
 wins: 48
 looses: 12
@@ -5078,6 +5586,7 @@ age: 55
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 183.9976
+
 name: marcus browne
 wins: 23
 looses: 1
@@ -5088,6 +5597,7 @@ age: 31
 country: United States
 height_cm: 184.0992
 reach_cm: 191.9986
+
 name: joe brown
 wins: 116
 looses: 47
@@ -5098,6 +5608,7 @@ age: 96
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 172.9994
+
 name: kell brook
 wins: 39
 looses: 3
@@ -5108,6 +5619,7 @@ age: 36
 country: United Kingdom
 height_cm: 174.95520000000002
 reach_cm: 175.00600000000003
+
 name: lou brouillard
 wins: 101
 looses: 31
@@ -5118,6 +5630,7 @@ age: 111
 country: Canada
 height_cm: 170.07840000000002
 reach_cm: 183.007
+
 name: adrien broner
 wins: 33
 looses: 4
@@ -5128,6 +5641,7 @@ age: 33
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: shannon briggs
 wins: 60
 looses: 6
@@ -5138,6 +5652,7 @@ age: 50
 country: United States
 height_cm: 192.9384
 reach_cm: 202.9968
+
 name: jack britton
 wins: 239
 looses: 57
@@ -5148,6 +5663,7 @@ age: 136
 country: United States
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: dominic breazeale
 wins: 20
 looses: 2
@@ -5158,6 +5674,7 @@ age: 36
 country: United States
 height_cm: 199.0344
 reach_cm: 205.994
+
 name: timothy bradley
 wins: 33
 looses: 2
@@ -5168,6 +5685,7 @@ age: 38
 country: United States
 height_cm: 167.9448
 reach_cm: 175.00600000000003
+
 name: juergen braehmer
 wins: 50
 looses: 3
@@ -5178,6 +5696,7 @@ age: 43
 country: Germany
 height_cm: 181.05120000000002
 reach_cm: 181.0004
+
 name: livingstone bramble
 wins: 40
 looses: 26
@@ -5188,6 +5707,7 @@ age: 61
 country: Saint Kitts and Nevis
 height_cm: 173.1264
 reach_cm: 188.0108
+
 name: riddick bowe
 wins: 43
 looses: 1
@@ -5198,6 +5718,7 @@ age: 54
 country: United States
 height_cm: 195.9864
 reach_cm: 205.994
+
 name: enrique bolanos
 wins: 79
 looses: 22
@@ -5208,6 +5729,7 @@ age: 97
 country: United States
 height_cm: 173.1264
 reach_cm: 184.9882
+
 name: victor bisbal
 wins: 22
 looses: 4
@@ -5218,6 +5740,7 @@ age: 42
 country: Puerto Rico
 height_cm: 192.9384
 reach_cm: 197.99300000000002
+
 name: lennox blackmoore
 wins: 25
 looses: 5
@@ -5228,6 +5751,7 @@ age: 72
 country: Guyana
 height_cm: 177.0888
 reach_cm: 191.008
+
 name: jimmy bivins
 wins: 86
 looses: 25
@@ -5238,6 +5762,7 @@ age: 102
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 192.9892
+
 name: mickey bey
 wins: 22
 looses: 3
@@ -5248,6 +5773,7 @@ age: 39
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 175.00600000000003
+
 name: andre berto
 wins: 33
 looses: 5
@@ -5258,6 +5784,7 @@ age: 38
 country: United States
 height_cm: 168.85920000000002
 reach_cm: 173.99
+
 name: artur beterbiev
 wins: 15
 looses: 0
@@ -5268,6 +5795,7 @@ age: 37
 country: Russian Federation
 height_cm: 184.0992
 reach_cm: 184.9882
+
 name: melio bettina
 wins: 83
 looses: 14
@@ -5278,6 +5806,7 @@ age: 105
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: trevor berbick
 wins: 49
 looses: 11
@@ -5288,6 +5817,7 @@ age: 68
 country: Canada
 height_cm: 188.0616
 reach_cm: 197.99300000000002
+
 name: miguel berchelt
 wins: 38
 looses: 1
@@ -5298,6 +5828,7 @@ age: 30
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 180.0098
+
 name: nicky bentz
 wins: 36
 looses: 7
@@ -5308,6 +5839,7 @@ age: 50
 country: Mexico
 height_cm: 170.07840000000002
 reach_cm: 178.0032
+
 name: jose benavidez
 wins: 27
 looses: 1
@@ -5318,6 +5850,7 @@ age: 30
 country: United States
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: nino benvenuti
 wins: 82
 looses: 7
@@ -5328,6 +5861,7 @@ age: 84
 country: Italy
 height_cm: 180.1368
 reach_cm: 191.008
+
 name: raymundo beltran
 wins: 36
 looses: 9
@@ -5338,6 +5872,7 @@ age: 41
 country: Mexico
 height_cm: 173.1264
 reach_cm: 172.9994
+
 name: tony bellew
 wins: 30
 looses: 3
@@ -5348,6 +5883,7 @@ age: 39
 country: United Kingdom
 height_cm: 191.1096
 reach_cm: 188.0108
+
 name: owen beck
 wins: 29
 looses: 13
@@ -5358,6 +5894,7 @@ age: 46
 country: Jamaica
 height_cm: 187.1472
 reach_cm: 197.99300000000002
+
 name: hogan kid bassey
 wins: 59
 looses: 13
@@ -5368,6 +5905,7 @@ age: 90
 country: Nigeria
 height_cm: 160.02
 reach_cm: 169.01160000000002
+
 name: fidel bassa
 wins: 22
 looses: 1
@@ -5378,6 +5916,7 @@ age: 59
 country: Colombia
 height_cm: 160.9344
 reach_cm: 178.0032
+
 name: marco antonio barrera
 wins: 67
 looses: 7
@@ -5388,6 +5927,7 @@ age: 48
 country: Mexico
 height_cm: 167.9448
 reach_cm: 178.0032
+
 name: rances barthelemy
 wins: 28
 looses: 1
@@ -5398,6 +5938,7 @@ age: 36
 country: Cuba
 height_cm: 180.1368
 reach_cm: 184.9882
+
 name: sullivan barrera
 wins: 22
 looses: 3
@@ -5408,6 +5949,7 @@ age: 40
 country: Cuba
 height_cm: 188.0616
 reach_cm: 184.9882
+
 name: iran barkley
 wins: 43
 looses: 19
@@ -5418,6 +5960,7 @@ age: 62
 country: United States
 height_cm: 185.01360000000003
 reach_cm: 188.0108
+
 name: carlos manuel baldomir
 wins: 49
 looses: 16
@@ -5428,6 +5971,7 @@ age: 51
 country: Argentina
 height_cm: 170.07840000000002
 reach_cm: 172.9994
+
 name: emanuel augustus
 wins: 38
 looses: 34
@@ -5438,6 +5982,7 @@ age: 47
 country: United States
 height_cm: 170.07840000000002
 reach_cm: 172.9994
+
 name: firat arslan
 wins: 48
 looses: 9
@@ -5448,6 +5993,7 @@ age: 51
 country: Germany
 height_cm: 181.9656
 reach_cm: 194.9958
+
 name: henry armstrong
 wins: 150
 looses: 21
@@ -5458,6 +6004,7 @@ age: 112
 country: United States
 height_cm: 166.116
 reach_cm: 170.00220000000002
+
 name: chris arreola
 wins: 38
 looses: 6
@@ -5468,6 +6015,7 @@ age: 41
 country: United States
 height_cm: 191.1096
 reach_cm: 192.9892
+
 name: alexis arguello
 wins: 77
 looses: 8
@@ -5478,6 +6026,7 @@ age: 70
 country: Nicaragua
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: art aragon
 wins: 90
 looses: 20
@@ -5488,6 +6037,7 @@ age: 94
 country: United States
 height_cm: 173.1264
 reach_cm: 178.0032
+
 name: alfredo angulo
 wins: 24
 looses: 6
@@ -5498,6 +6048,7 @@ age: 40
 country: Mexico
 height_cm: 177.0888
 reach_cm: 175.00600000000003
+
 name: fred apostoli
 wins: 61
 looses: 10
@@ -5508,6 +6059,7 @@ age: 109
 country: United States
 height_cm: 177.0888
 reach_cm: 178.0032
+
 name: sammy angott
 wins: 94
 looses: 29
@@ -5518,6 +6070,7 @@ age: 107
 country: United States
 height_cm: 170.99280000000002
 reach_cm: 178.0032
+
 name: jerwin ancajas
 wins: 32
 looses: 1
@@ -5528,6 +6081,7 @@ age: 30
 country: Philippines
 height_cm: 167.9448
 reach_cm: 169.01160000000002
+
 name: chris algieri
 wins: 24
 looses: 3
@@ -5538,6 +6092,7 @@ age: 38
 country: United States
 height_cm: 178.0032
 reach_cm: 183.007
+
 name: lou ambers
 wins: 91
 looses: 8
@@ -5548,6 +6103,7 @@ age: 108
 country: United States
 height_cm: 163.9824
 reach_cm: 178.0032
+
 name: devon alexander
 wins: 27
 looses: 7
@@ -5558,6 +6114,7 @@ age: 35
 country: United States
 height_cm: 174.0408
 reach_cm: 178.0032
+
 name: prince badi ajamu
 wins: 27
 looses: 3
@@ -5568,6 +6125,7 @@ age: 50
 country: United States
 height_cm: 182.88
 reach_cm: 188.0108
+
 name: ryo akaho
 wins: 33
 looses: 2
@@ -5578,6 +6136,7 @@ age: 36
 country: Japan
 height_cm: 167.9448
 reach_cm: 170.00220000000002
+
 name: joseph agbeko
 wins: 36
 looses: 5
@@ -5588,6 +6147,7 @@ age: 42
 country: Ghana
 height_cm: 166.116
 reach_cm: 165.98899999999998
+
 name: brandon adams
 wins: 21
 looses: 3
@@ -5598,6 +6158,7 @@ age: 33
 country: United States
 height_cm: 174.95520000000002
 reach_cm: 178.0032
+
 name: arthur abraham
 wins: 47
 looses: 6
@@ -5608,6 +6169,7 @@ age: 42
 country: Germany
 height_cm: 174.95520000000002
 reach_cm: 183.007
+
 name: victor abraham
 wins: 24
 looses: 15
