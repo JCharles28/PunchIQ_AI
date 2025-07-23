@@ -1,8 +1,11 @@
 # Libraries
-import os, joblib, warnings
+import os, joblib, warnings, sys
 import streamlit as st
 import pandas as pd
 from sklearn.exceptions import InconsistentVersionWarning
+
+# Configure the path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 # Suppress sklearn version warnings
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
@@ -20,7 +23,7 @@ def load_ml_utils(model_path: str, scaler_path: str, label_encoder_path: str):
             label_encoder = joblib.load(label_encoder_path)
         
         # Show info message about potential version differences
-        st.info("ℹ️ Models loaded successfully. Note: Using models trained with a different sklearn version.")
+        st.info("ℹ️ Models loaded successfully.\nNote: Using models trained with a different sklearn version.")
         return model, scaler, label_encoder
     except Exception as e:
         st.error(f"❌ Error loading ML model: {str(e)}")
@@ -122,7 +125,12 @@ if st.button("Predict Outcome"):
     elif model and scaler and label_encoder:
         try:
             result = predict_outcome(fighterA, fighterB, model, scaler, label_encoder)
-            st.success(f"✅ Prediction: {result}")
+            if result == "draw":
+                st.info("🤝 The match is predicted to end in a draw.")
+            elif result == "win_A":
+                st.success(f"🥊 The match is predicted to be won by Fighter A :  **{fighterA['name']}**")
+            elif result == "win_B":
+                st.success(f"🥊 The match is predicted to be won by Fighter B :  **{fighterB['name']}**")
         except Exception as e:
             st.error(f"❌ Prediction failed: {str(e)}. This might be due to model version incompatibility.")
     else:
