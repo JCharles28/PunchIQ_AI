@@ -446,9 +446,6 @@ def handle_user_input():
         # Add user message to history
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.chat_message("user").write(prompt)
-        
-        # No ML prediction - this is handled in the ml_prediction page
-        result_ml = "No prediction available - use the ML Prediction page for fight predictions"
 
         # Initialize system based on configuration
         with st.chat_message("assistant"):
@@ -462,7 +459,7 @@ def handle_user_input():
                     if success and rag is not None:
                         with st.spinner("🔮 Generating response with RAG..."):
                                 
-                            result = generate_response(prompt, result_ml, llm, rag, use_rag=True, nb_chunks=nb_chunks)
+                            result = generate_response(prompt, llm, rag, use_rag=True, nb_chunks=nb_chunks)
 
                             # Display response
                             st.write(result["response"])
@@ -494,7 +491,7 @@ def handle_user_input():
                         mistral_client = Mistral(api_key=api_key)
                         llm = MistralLLM(client=mistral_client, model=model_choice)
                         
-                        result = generate_response(prompt, result_ml, llm, use_rag=False)
+                        result = generate_response(prompt, llm, use_rag=False)
                         st.write(result["response"])
                         
                         if not use_rag:
