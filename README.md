@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 PunchIQ_AI/
 ├── src/chatbot/
-│   ├── main_chatbot.py    # Streamlit interface
+│   ├── main.py    # Streamlit interface
 │   ├── rag.py             # RAG system
 │   └── llm_model.py       # Mistral model
 ├── data/
@@ -66,7 +66,7 @@ PunchIQ_AI/
 
 ### 1. **Start the Chatbot**
 ```bash
-streamlit run src/chatbot/main_chatbot.py
+streamlit run src/chatbot/main.py
 ```
 
 ### 2. **Initial Configuration**
@@ -79,6 +79,20 @@ streamlit run src/chatbot/main_chatbot.py
 - **Chunk size**: 512-4096 characters (default: 2048)
 - **Number of chunks**: 1-10 sources (default: 3)
 - **Embedding model**: all-MiniLM-L6-v2 (fast) or L12-v2 (precise)
+
+## 🎯 Usage Examples
+
+### Typical Session
+```
+User: "Compare Anthony Joshua and Tyson Fury"
+Bot: [Detailed analysis with database sources]
+
+User: "Who would win this fight?"
+Bot: [Prediction based on retrieved statistics]
+
+User: "Explain why"
+Bot: [Technical explanation with data references]
+```
 
 ## 💬 Supported Question Examples
 
@@ -116,7 +130,7 @@ streamlit run src/chatbot/main_chatbot.py
 - **Chunks**: 1024 characters, 2 sources
 <!-- - **Embedding**: all-MiniLM-L6-v2 -->
 
-## 🧪 Testing
+<!-- ## 🧪 Testing
 
 ### Full Test
 ```bash
@@ -126,7 +140,7 @@ python test_chatbot.py
 ### Manual Tests
 1. **Basic test**: "Who is Anthony Joshua?"
 2. **RAG test**: "Compare two boxers from your dataset"
-3. **Prediction test**: "Predict a specific fight"
+3. **Prediction test**: "Predict a specific fight" -->
 
 ## 🔄 Data Updates
 
@@ -151,17 +165,3 @@ python test_chatbot.py
 - ✅ Always enable RAG for boxer-related questions
 - ✅ Use standard mode for general questions
 - ✅ Adjust parameters as needed
-
-## 🎯 Usage Examples
-
-### Typical Session
-```
-User: "Compare Anthony Joshua and Tyson Fury"
-Bot: [Detailed analysis with database sources]
-
-User: "Who would win this fight?"
-Bot: [Prediction based on retrieved statistics]
-
-User: "Explain why"
-Bot: [Technical explanation with data references]
-```
