@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.exceptions import InconsistentVersionWarning
 
 # Configure the path for imports
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 # Suppress sklearn version warnings
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
