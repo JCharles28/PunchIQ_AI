@@ -6,6 +6,8 @@ import os
 import pandas as pd
 import stat
 
+
+
 # Configure the path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
@@ -22,8 +24,9 @@ api_mgr = get_api_key_manager()
 
 # ml functions
 
-async def load_ml_utils(model_path: str, scaler_path: str, label_encoder_path: str):
-    """Load a machine learning model from the specified path."""
+@st.cache_resource
+def load_ml_utils(model_path: str, scaler_path: str, label_encoder_path: str):
+    """Load ML models (cached to avoid reloading)"""
     try:
         model = joblib.load(model_path)
         scaler = joblib.load(scaler_path)
@@ -73,6 +76,23 @@ def init_fighters_info():
                 "kos": 0
             }
         }
+
+def validate_fighter_data(fighterA_data, fighterB_data):
+    """Validate fighter data efficiently"""
+    errors = []
+    
+    # Check names
+    if not fighterA_data["name"] or not fighterB_data["name"]:
+        errors.append("Please provide names for both fighters to enable ML prediction.")
+    
+    # Check wins vs KOs
+    if fighterA_data["wins"] < fighterA_data["kos"]:
+        errors.append("Fighter A: Wins cannot be less than KOs.")
+    
+    if fighterB_data["wins"] < fighterB_data["kos"]:
+        errors.append("Fighter B: Wins cannot be less than KOs.")
+    
+    return errors
 
 
 # Initialize RAG system (cached)
@@ -200,8 +220,8 @@ def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks
             Use the following information about the fighters to answer the question.
             """
             
-            # Build enriched prompt with RAG
-            retrieved_data = "\n".join([f"Chunk {i+1}: {chunk[:500]}..." for i, chunk in enumerate(retrieved_chunks)])
+            # Build enriched prompt with RAG - limit chunk size for performance
+            retrieved_data = "\n".join([f"Chunk {i+1}: {chunk[:300]}..." for i, chunk in enumerate(retrieved_chunks[:nb_chunks])])
             
             constraints = [
                 "Use simple and professional language",
@@ -212,12 +232,12 @@ def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks
             rag_prompt = rag.get_prompt_template(
                 context=context,
                 retrieved_data=retrieved_data,
+                fighterA=st.session_state.fighters_info["fighterA"],
+                fighterB=st.session_state.fighters_info["fighterB"],
                 result_ml=result_ml,  # Pass ML result to RAG
                 task=prompt,
                 constraints=constraints
             )
-            
-            print(rag_prompt)  # Debugging output to verify the prompt content
             
             response = llm.run(rag_prompt)
             
@@ -225,7 +245,7 @@ def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks
                 "response": response,
                 "used_rag": True,
                 "chunks_used": len(retrieved_chunks),
-                "retrieved_chunks": retrieved_chunks[:2]  # Display only the first 2
+                "retrieved_chunks": retrieved_chunks[:1]  # Display only the first chunk
             }
             
         except Exception as e:
@@ -259,7 +279,7 @@ def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks
 # Streamlit page configuration
 st.set_page_config(
     page_title="Punch IQ AI",
-    page_icon="🥊",
+    page_icon="ressources/logo/punchIQ_logo.ico",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -286,7 +306,6 @@ with st.sidebar:
         if st.button("💾 Save API Key", help="Save key securely for future use"):
             if api_mgr.save_api_key("mistral", api_key):
                 st.success("✅ API Key saved securely")
-                st.rerun()
     
     if api_key:
         st.success("✅ API Key configured")
@@ -387,10 +406,10 @@ st.markdown(
         }
         .stChatMessage {
             border-radius: 10px;
-            border: 1px solid #e0e0e0;
+            // border: 0.2px solid #e0e0e0;
             padding: 15px;
             margin-bottom: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 3px 4px 5px 4px rgba(0,0,1,0.8);
         }
         .stChatMessageUser {
             background-color: #e3f2fd;
@@ -450,7 +469,7 @@ for msg in st.session_state.messages:
 
 
 # Handle user input
-async def handle_user_input():
+def handle_user_input():
     if prompt := st.chat_input("Ask me about boxing..."):
         
         if not api_key:
@@ -463,13 +482,12 @@ async def handle_user_input():
         
         # Initialize variables
         result_ml = None
-        model = None
-        scaler = None
-        label_encoder = None
-        
+        model, scaler, label_encoder = None, None, None
+
+        # Check if ML prediction is enabled
         if not use_fighters_info:
-            st.warning("⚠️ ML Outcome Prediction is deactivated. Please enable it for fight predictions.")
-            st.stop()
+            st.info("ℹ️ ML Outcome Prediction is disabled. You can still ask general boxing questions without providing fighter details.")
+            # st.stop()
         else:
             # Store fighter information in session state
             st.session_state.fighters_info["fighterA"]["name"] = fighterA_name
@@ -477,25 +495,38 @@ async def handle_user_input():
             st.session_state.fighters_info["fighterA"]["draws"] = fighterA_draws
             st.session_state.fighters_info["fighterA"]["losses"] = fighterA_losses
             st.session_state.fighters_info["fighterA"]["kos"] = fighterA_kos
-            print(st.session_state.fighters_info["fighterA"])
-            
-            if fighterA_wins < fighterA_kos:
-                st.warning("⚠️ Wins cannot be less than KOs. Please check the values for Fighter A.")
-                st.stop()
 
             st.session_state.fighters_info["fighterB"]["name"] = fighterB_name
             st.session_state.fighters_info["fighterB"]["wins"] = fighterB_wins
             st.session_state.fighters_info["fighterB"]["draws"] = fighterB_draws
             st.session_state.fighters_info["fighterB"]["losses"] = fighterB_losses
             st.session_state.fighters_info["fighterB"]["kos"] = fighterB_kos
-            print(st.session_state.fighters_info["fighterB"])
             
-            if fighterB_wins < fighterB_kos:
-                st.warning("⚠️ Wins cannot be less than KOs. Please check the values for Fighter B.")
+            # Validate fighter data
+            fighterA_data = {
+                "name": fighterA_name,
+                "wins": fighterA_wins,
+                "draws": fighterA_draws,
+                "losses": fighterA_losses,
+                "kos": fighterA_kos
+            }
+            
+            fighterB_data = {
+                "name": fighterB_name,
+                "wins": fighterB_wins,
+                "draws": fighterB_draws,
+                "losses": fighterB_losses,
+                "kos": fighterB_kos
+            }
+            
+            validation_errors = validate_fighter_data(fighterA_data, fighterB_data)
+            if validation_errors:
+                for error in validation_errors:
+                    st.warning(f"⚠️ {error}")
                 st.stop()
             
             try:
-                model, scaler, label_encoder = await load_ml_utils(
+                model, scaler, label_encoder = load_ml_utils(
                     f'model/ML/boxing_model.pkl',
                     f'model/ML/scaler.pkl',
                     f'model/ML/label_encoder.pkl'
@@ -509,11 +540,30 @@ async def handle_user_input():
                 wins_diff = fighterA_wins - fighterB_wins
                 losses_diff = fighterA_losses - fighterB_losses
                 drawn_diff = fighterA_draws - fighterB_draws
-                ko_rate_diff = fighterA_kos - fighterB_kos
+                ko_diff = fighterA_kos - fighterB_kos
 
+                totalA = fighterA_wins + fighterA_losses + fighterA_draws
+                totalB = fighterB_wins + fighterB_losses + fighterB_draws
+                total_fight_diff = totalA - totalB
+                
+                win_rate_A = fighterA_wins / totalA if totalA > 0 else 0
+                win_rate_B = fighterB_wins / totalB if totalB > 0 else 0
+                win_rate_diff = win_rate_A - win_rate_B
+                
+                ko_rate_A = fighterA_kos / totalA if totalA > 0 else 0
+                ko_rate_B = fighterB_kos / totalB if totalB > 0 else 0
+                ko_rate_diff = ko_rate_A - ko_rate_B
+                
                 features = pd.DataFrame(
-                    [[wins_diff, losses_diff, drawn_diff, ko_rate_diff]],
-                    columns=['wins_diff', 'losses_diff', 'drawn_diff', 'ko_rate_diff']
+                    [[
+                        wins_diff, losses_diff, drawn_diff, 
+                        ko_diff, total_fight_diff,
+                        win_rate_diff, ko_rate_diff
+                    ]],
+                    columns=[
+                        'wins_diff', 'losses_diff', 'drawn_diff',
+                        'ko_diff', 'total_fights_diff', 'win_rate_diff', 'ko_rate_diff'
+                    ]
                 )
             
                 features_scaled = scaler.transform(features)
@@ -523,9 +573,7 @@ async def handle_user_input():
                 st.error("❌ Error loading the ML model. Please check the model files.")
                 st.stop()
 
-        if not st.session_state.fighters_info["fighterA"]["name"] or not st.session_state.fighters_info["fighterB"]["name"]:
-            st.warning("⚠️ Please provide names for both fighters.")
-            st.stop()
+
 
         # Initialize system based on configuration
         with st.chat_message("assistant"):
@@ -540,7 +588,7 @@ async def handle_user_input():
                         with st.spinner("🔮 Generating response with RAG..."):
 
                             if not result_ml:
-                                st.warning("⚠️ No ML result available. Using standard response generation.")
+                                st.info("ℹ️ No ML result available. Using standard response generation.")
                                 result_ml = "No prediction available"
                                 
                             result = generate_response(prompt, result_ml, llm, rag, use_rag=True, nb_chunks=nb_chunks)
@@ -604,28 +652,26 @@ async def handle_user_input():
                 st.session_state.messages.append({"role": "assistant", "content": error_msg})
 
 # Footer with information and statistics
-import asyncio
 
-async def main():
-    await handle_user_input()
+# Direct function call instead of async
+handle_user_input()
 
-asyncio.run(main())
 st.markdown("---")
-st.markdown("---")
+# st.markdown("---")
 
 # Session statistics
-if "messages" in st.session_state and len(st.session_state.messages) > 2:
-    col1, col2, col3 = st.columns(3)
+# if "messages" in st.session_state and len(st.session_state.messages) > 2:
+#     col1, col2, col3 = st.columns(3)
     
-    with col1:
-        st.metric("💬 Messages", len(st.session_state.messages) - 2)  # -2 for welcome messages
+#     with col1:
+#         st.metric("💬 Messages", len(st.session_state.messages) - 2)  # -2 for welcome messages
     
-    with col2:
-        rag_status = "🧠 RAG Enabled" if use_rag else "📝 Standard Mode"
-        st.metric("🔧 Mode", rag_status)
+#     with col2:
+#         rag_status = "🧠 RAG Enabled" if use_rag else "📝 Standard Mode"
+#         st.metric("🔧 Mode", rag_status)
     
-    with col3:
-        st.metric("🤖 Model", model_choice)
+#     with col3:
+#         st.metric("🤖 Model", model_choice)
 
 st.markdown(
     """
