@@ -1,10 +1,7 @@
 # Libraries
-import joblib
 import streamlit as st
 import sys
 import os
-import pandas as pd
-import stat
 
 
 
@@ -24,29 +21,18 @@ api_mgr = get_api_key_manager()
 
 # ml functions
 
-@st.cache_resource
-def load_ml_utils(model_path: str, scaler_path: str, label_encoder_path: str):
-    """Load ML models (cached to avoid reloading)"""
-    try:
-        model = joblib.load(model_path)
-        scaler = joblib.load(scaler_path)
-        label_encoder = joblib.load(label_encoder_path)
-        
-        return model, scaler, label_encoder
-    except Exception as e:
-        st.error(f"❌ Error loading ML model: {str(e)}")
-        return None, None, None
+# Removed load_ml_utils function - ML prediction is handled in ml_prediction page
 
 # utils functions
 def start_conversation():
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Hello! I am Punch IQ AI, your boxing match prediction assistant. 🥊"
+            "content": "Hello! I am Punch IQ AI, your boxing expert assistant. 🥊"
         },
         {
             "role": "assistant", 
-            "content": "Please provide the details of the fighters, and I will predict the outcome of the match. You can ask me about:\nFighter comparisons\n• Match predictions\n• Boxing statistics\n• Fighter profiles"
+            "content": "I can help you with:\n• General boxing questions\n• Fighter information and history\n• Boxing rules and techniques\n• Fight analysis and insights"
         }
     ]
 
@@ -77,23 +63,7 @@ def init_fighters_info():
             }
         }
 
-def validate_fighter_data(fighterA_data, fighterB_data):
-    """Validate fighter data efficiently"""
-    errors = []
-    
-    # Check names
-    if not fighterA_data["name"] or not fighterB_data["name"]:
-        errors.append("Please provide names for both fighters to enable ML prediction.")
-    
-    # Check wins vs KOs
-    if fighterA_data["wins"] < fighterA_data["kos"]:
-        errors.append("Fighter A: Wins cannot be less than KOs.")
-    
-    if fighterB_data["wins"] < fighterB_data["kos"]:
-        errors.append("Fighter B: Wins cannot be less than KOs.")
-    
-    return errors
-
+# Removed validate_fighter_data function - validation is handled in ml_prediction page
 
 # Initialize RAG system (cached)
 @st.cache_resource
@@ -385,17 +355,17 @@ with st.sidebar:
         st.session_state.messages = [
             {
                 "role": "assistant",
-                "content": "Hello! I am Punch IQ AI, your boxing match prediction assistant."
+                "content": "Hello! I am Punch IQ AI, your boxing expert assistant."
             },
             {
                 "role": "assistant", 
-                "content": "Please provide the details of the fighters, and I will predict the outcome of the match."
+                "content": "I can help you with general boxing questions, fighter information, and fight analysis."
             }
         ]
         st.rerun()
 
-st.title("🥊 Punch IQ AI")
-st.caption("🚀 AI solution that predicts the outcome of a boxing match based on the fighters' characteristics.")
+st.title("🥊 Punch IQ AI - Chatbot")
+st.caption("🤖 Ask questions about boxing, fighters, techniques, and get expert insights from our AI assistant.")
 
 # Chatbot interface customization
 st.markdown(
@@ -431,31 +401,31 @@ st.markdown(
 )
 
 # Add a pull-down menu for inputs about two distinct fighters
-with st.expander("Fighters Information for Prediction", expanded=True):
-    # st.header("Fighter Information")
-    use_fighters_info = st.checkbox("Enable ML Outcome Prediction",
-                        value=False,
-                        help="Uses the boxer infos for more precise target prediction")
-    # Create two columns for Fighter 1 and Fighter 2
-    col1, col2 = st.columns(2)
+# with st.expander("Fighters Information for Prediction", expanded=True):
+#     # st.header("Fighter Information")
+#     use_fighters_info = st.checkbox("Enable ML Outcome Prediction",
+#                         value=False,
+#                         help="Uses the boxer infos for more precise target prediction")
+#     # Create two columns for Fighter 1 and Fighter 2
+#     col1, col2 = st.columns(2)
 
-    # Fighter A Information
-    with col1:
-        st.subheader("Fighter A")
-        fighterA_name = st.text_input("Name", key="fighterA_name")
-        fighterA_wins = st.number_input("Wins", min_value=0, key="fighterA_wins")
-        fighterA_draws = st.number_input("Draws", min_value=0, key="fighterA_draws")
-        fighterA_losses = st.number_input("Losses", min_value=0, key="fighterA_losses")
-        fighterA_kos = st.number_input("KOs", min_value=0, key="fighterA_kos")
+#     # Fighter A Information
+#     with col1:
+#         st.subheader("Fighter A")
+#         fighterA_name = st.text_input("Name", key="fighterA_name")
+#         fighterA_wins = st.number_input("Wins", min_value=0, key="fighterA_wins")
+#         fighterA_draws = st.number_input("Draws", min_value=0, key="fighterA_draws")
+#         fighterA_losses = st.number_input("Losses", min_value=0, key="fighterA_losses")
+#         fighterA_kos = st.number_input("KOs", min_value=0, key="fighterA_kos")
 
-    # Fighter B Information
-    with col2:
-        st.subheader("Fighter B")
-        fighterB_name = st.text_input("Name", key="fighterB_name")
-        fighterB_wins = st.number_input("Wins", min_value=0, key="fighterB_wins")
-        fighterB_draws = st.number_input("Draws", min_value=0, key="fighterB_draws")
-        fighterB_losses = st.number_input("Losses", min_value=0, key="fighterB_losses")
-        fighterB_kos = st.number_input("KOs", min_value=0, key="fighterB_kos")
+#     # Fighter B Information
+#     with col2:
+#         st.subheader("Fighter B")
+#         fighterB_name = st.text_input("Name", key="fighterB_name")
+#         fighterB_wins = st.number_input("Wins", min_value=0, key="fighterB_wins")
+#         fighterB_draws = st.number_input("Draws", min_value=0, key="fighterB_draws")
+#         fighterB_losses = st.number_input("Losses", min_value=0, key="fighterB_losses")
+#         fighterB_kos = st.number_input("KOs", min_value=0, key="fighterB_kos")
 
 # Initialize fighters information history
 init_fighters_info()
@@ -480,100 +450,8 @@ def handle_user_input():
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.chat_message("user").write(prompt)
         
-        # Initialize variables
-        result_ml = None
-        model, scaler, label_encoder = None, None, None
-
-        # Check if ML prediction is enabled
-        if not use_fighters_info:
-            st.info("ℹ️ ML Outcome Prediction is disabled. You can still ask general boxing questions without providing fighter details.")
-            # st.stop()
-        else:
-            # Store fighter information in session state
-            st.session_state.fighters_info["fighterA"]["name"] = fighterA_name
-            st.session_state.fighters_info["fighterA"]["wins"] = fighterA_wins
-            st.session_state.fighters_info["fighterA"]["draws"] = fighterA_draws
-            st.session_state.fighters_info["fighterA"]["losses"] = fighterA_losses
-            st.session_state.fighters_info["fighterA"]["kos"] = fighterA_kos
-
-            st.session_state.fighters_info["fighterB"]["name"] = fighterB_name
-            st.session_state.fighters_info["fighterB"]["wins"] = fighterB_wins
-            st.session_state.fighters_info["fighterB"]["draws"] = fighterB_draws
-            st.session_state.fighters_info["fighterB"]["losses"] = fighterB_losses
-            st.session_state.fighters_info["fighterB"]["kos"] = fighterB_kos
-            
-            # Validate fighter data
-            fighterA_data = {
-                "name": fighterA_name,
-                "wins": fighterA_wins,
-                "draws": fighterA_draws,
-                "losses": fighterA_losses,
-                "kos": fighterA_kos
-            }
-            
-            fighterB_data = {
-                "name": fighterB_name,
-                "wins": fighterB_wins,
-                "draws": fighterB_draws,
-                "losses": fighterB_losses,
-                "kos": fighterB_kos
-            }
-            
-            validation_errors = validate_fighter_data(fighterA_data, fighterB_data)
-            if validation_errors:
-                for error in validation_errors:
-                    st.warning(f"⚠️ {error}")
-                st.stop()
-            
-            try:
-                model, scaler, label_encoder = load_ml_utils(
-                    f'model/ML/boxing_model.pkl',
-                    f'model/ML/scaler.pkl',
-                    f'model/ML/label_encoder.pkl'
-                )
-            except Exception as e:
-                st.error(f"❌ Error loading ML models: {str(e)}")
-                st.stop()
-                        
-            if model is not None and scaler is not None and label_encoder is not None:
-                # predict the outcome
-                wins_diff = fighterA_wins - fighterB_wins
-                losses_diff = fighterA_losses - fighterB_losses
-                drawn_diff = fighterA_draws - fighterB_draws
-                ko_diff = fighterA_kos - fighterB_kos
-
-                totalA = fighterA_wins + fighterA_losses + fighterA_draws
-                totalB = fighterB_wins + fighterB_losses + fighterB_draws
-                total_fight_diff = totalA - totalB
-                
-                win_rate_A = fighterA_wins / totalA if totalA > 0 else 0
-                win_rate_B = fighterB_wins / totalB if totalB > 0 else 0
-                win_rate_diff = win_rate_A - win_rate_B
-                
-                ko_rate_A = fighterA_kos / totalA if totalA > 0 else 0
-                ko_rate_B = fighterB_kos / totalB if totalB > 0 else 0
-                ko_rate_diff = ko_rate_A - ko_rate_B
-                
-                features = pd.DataFrame(
-                    [[
-                        wins_diff, losses_diff, drawn_diff, 
-                        ko_diff, total_fight_diff,
-                        win_rate_diff, ko_rate_diff
-                    ]],
-                    columns=[
-                        'wins_diff', 'losses_diff', 'drawn_diff',
-                        'ko_diff', 'total_fights_diff', 'win_rate_diff', 'ko_rate_diff'
-                    ]
-                )
-            
-                features_scaled = scaler.transform(features)
-                pred = model.predict(features_scaled)
-                result_ml = label_encoder.inverse_transform(pred)[0]
-            else:
-                st.error("❌ Error loading the ML model. Please check the model files.")
-                st.stop()
-
-
+        # No ML prediction - this is handled in the ml_prediction page
+        result_ml = "No prediction available - use the ML Prediction page for fight predictions"
 
         # Initialize system based on configuration
         with st.chat_message("assistant"):
@@ -586,10 +464,6 @@ def handle_user_input():
                     
                     if success and rag is not None:
                         with st.spinner("🔮 Generating response with RAG..."):
-
-                            if not result_ml:
-                                st.info("ℹ️ No ML result available. Using standard response generation.")
-                                result_ml = "No prediction available"
                                 
                             result = generate_response(prompt, result_ml, llm, rag, use_rag=True, nb_chunks=nb_chunks)
 
@@ -613,7 +487,7 @@ def handle_user_input():
                         st.warning("⚠️ RAG system failed to initialize. Using standard mode.")
                         mistral_client = Mistral(api_key=api_key)
                         llm = MistralLLM(client=mistral_client, model=model_choice)
-                        result = generate_response(prompt, result_ml or "No prediction available", llm, use_rag=False)
+                        result = generate_response(prompt, result_ml, llm, use_rag=False)
                         st.write(result["response"])
                         response_content = result["response"]
                         
@@ -622,10 +496,6 @@ def handle_user_input():
                     with st.spinner("🤖 Generating response..."):
                         mistral_client = Mistral(api_key=api_key)
                         llm = MistralLLM(client=mistral_client, model=model_choice)
-                        
-                        if not result_ml:
-                            st.warning("⚠️ No ML result available. Using standard response generation.")
-                            result_ml = "No prediction available"
                         
                         result = generate_response(prompt, result_ml, llm, use_rag=False)
                         st.write(result["response"])
