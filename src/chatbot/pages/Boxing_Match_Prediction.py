@@ -10,23 +10,56 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 # Suppress sklearn version warnings
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 
+def get_model_paths():
+    """Get absolute paths for model files"""
+    # Get the directory of the current file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Navigate to the project root (3 levels up from pages/)
+    project_root = os.path.join(current_dir, '..', '..', '..')
+    project_root = os.path.abspath(project_root)
+    
+    # Define model paths
+    model_paths = {
+        'model': os.path.join(project_root, 'model', 'ml', 'boxing_model.pkl'),
+        'scaler': os.path.join(project_root, 'model', 'ml', 'scaler.pkl'),
+        'label_encoder': os.path.join(project_root, 'model', 'ml', 'label_encoder.pkl')
+    }
+    
+    return model_paths
+
 # ML functions
 @st.cache_resource
-def load_ml_utils(model_path: str, scaler_path: str, label_encoder_path: str):
+def load_ml_utils():
     """Load ML models (cached to avoid reloading)"""
     try:
+        model_paths = get_model_paths()
+        
+        # Check if model files exist
+        missing_files = []
+        for name, path in model_paths.items():
+            if not os.path.exists(path):
+                missing_files.append(f"{name}: {path}")
+        
+        if missing_files:
+            error_msg = "Missing model files:\n" + "\n".join(missing_files)
+            st.error(f"❌ {error_msg}")
+            st.info("💡 Make sure to upload the model files to your Streamlit deployment.")
+            return None, None, None
+        
         # Suppress warnings during model loading
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
-            model = joblib.load(model_path)
-            scaler = joblib.load(scaler_path)
-            label_encoder = joblib.load(label_encoder_path)
+            model = joblib.load(model_paths['model'])
+            scaler = joblib.load(model_paths['scaler'])
+            label_encoder = joblib.load(model_paths['label_encoder'])
         
-        # Show info message about potential version differences
-        st.info("ℹ️ Models loaded successfully.\nNote: Using models trained with a different sklearn version.")
+        # Show success message
+        st.success("✅ Models loaded successfully!")
         return model, scaler, label_encoder
     except Exception as e:
         st.error(f"❌ Error loading ML model: {str(e)}")
+        st.info("💡 If you're on Streamlit Cloud, ensure model files are included in your repository.")
         return None, None, None
 
 def validate_fighter_data(fighterA_data, fighterB_data):
@@ -110,11 +143,7 @@ with st.expander("Fighters Information", expanded=True):
         }
 
 # Load ML model
-model, scaler, label_encoder = load_ml_utils(
-    'model/ML/boxing_model.pkl',
-    'model/ML/scaler.pkl',
-    'model/ML/label_encoder.pkl'
-)
+model, scaler, label_encoder = load_ml_utils()
 
 # Predict button
 if st.button("Predict Outcome"):
