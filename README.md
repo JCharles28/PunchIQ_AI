@@ -128,6 +128,7 @@ Bot: [Technical explanation with data references]
 
 - **Model**: mistral-tiny
 - **Chunks**: 1024 characters, 2 sources
+
 <!-- - **Embedding**: all-MiniLM-L6-v2 -->
 
 <!-- ## 🧪 Testing

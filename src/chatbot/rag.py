@@ -2,12 +2,8 @@ from mistralai import Mistral
 # from langchain.document_loaders import CSVLoader
 from langchain_community.document_loaders import CSVLoader
 import numpy as np
-import faiss
-import os
-# sentence_transformers is not used in this file, but it is imported in the original code.
+import faiss, os
 from sentence_transformers import SentenceTransformer
-
-
 from llm_model import MistralLLM
 
 class Data:
@@ -167,100 +163,33 @@ class RAG:
             'distances': distances[0],
             'indices': indices[0]
         }
-    
-    def get_prompt_template(self, context: str, retrieved_data: str, result_ml: str, task: str, constraints: list):
+        
+    def get_prompt_template(self, context: str,
+                                retrieved_data: str,
+                                task: str,
+                                constraints: list):
         """
-        Génère un prompt selon le template du notebook
+        Génère un prompt amélioré pour le modèle Mistral AI.
         """
-        constraints_str = ", ".join(constraints)
+        constraints_str = "\n- ".join(constraints) if constraints else "None"
         
-        return f"""
-        Context information & required data is below.
-        ---------------------
-        Context: {context}
-        Retrieved data: {retrieved_data}
+        
+        prompt = f"""
+        **Instruction:** You are an expert boxing analyst and predictor, with a deep understanding of fight dynamics, fighter statistics, and the influence of machine learning predictions. Your primary goal is to provide a comprehensive and accurate analysis based *solely* on the provided information.
+                            **Context Information:**
+                            This section provides general background and relevant data for your analysis.
+                            ---------------------
+                            **General Context:** {context}
+                            **Retrieved Data:** {retrieved_data}
+                            ---------------------
+                            Task: {task}
+                            ---------------------
+                            **Constraints:**
+                            Adhere strictly to these constraints during your analysis and response generation:
+                            - {constraints_str}
 
-        For a prediction based on the ML model, if a fight outcome is asked, the result is: {result_ml}
-        ---------------------
-        Given the context information and not prior knowledge, answer here's your task:
-        {task}
-        
-        Constraints: {constraints_str}
-        """
+                            **Response Format:**
+                            Provide your analysis in a clear, structured, and unbiased manner. Ensure all relevant points are covered as per the task.
+                            """
 
-
-# class RAGSystem:
-
-#     def __init__(self, data: Data, llm_model: MistralLLM):
-#         # Initialiser les composants
-#         self.data = data
-#         self.rag = RAG(data, llm_model.client, embedding_model="all-MiniLM-L6-v2", chunk_size=1024)
-#         self.llm = llm_model
-        
-#         # Paramètres par défaut
-#         self.models = {
-#             "default": "open-mistral-7b",
-#             "fast": "mistral-tiny",
-#             "latest": "mistral-large-latest"
-#         }
-    
-#     def setup_rag_system(self, save_embeddings: bool = True, embeddings_path: str = "../data/fighters_embeddings.npy", 
-#                         vector_db_path: str = "../data/faiss_vectorized_db"):
-#         """
-#         Configure le système RAG complet
-#         """
-#         # 1. Créer les chunks
-#         chunks = self.rag.set_chunks()
-#         print(f"✅ Créé {len(chunks)} chunks")
-        
-#         # 2. Créer les embeddings
-#         embeddings = self.rag.chunks_to_embeddings()
-#         print(f"✅ Créé {embeddings.shape[0]} embeddings de dimension {embeddings.shape[1]}")
-        
-#         # 3. Sauvegarder les embeddings
-#         if save_embeddings:
-#             self.rag.save_embeddings(embeddings_path)
-#             print(f"✅ Embeddings sauvegardés dans {embeddings_path}")
-        
-#         # 4. Créer la base de données vectorielle
-#         self.rag.set_vector_database(vector_db_path)
-#         print(f"✅ Base de données vectorielle créée et sauvegardée dans {vector_db_path}")
-        
-#         return True
-    
-#     def predict_fight_outcome(self, fighters: list, k: int = 2):
-#         # Construire la tâche de prédiction
-#         task = f"""
-#         Describe in the most detailed way the outcome of this fight between these boxers: {fighters}.
-#         Be sure to clearly choose one winner and explain exactly how and why they won, including the method of victory, key moments, and what led to the final result.
-#         """
-        
-#         # Contexte
-#         context = f"""
-#         Be a expert in boxing since its creation in 1880.
-#         You've access to the following prediction:
-#         Based on the predicted outcome of boxing fight between the fighters {fighters} is: [TO_BE_DETERMINED]
-#         """
-        
-#         # Contraintes
-#         constraints = [
-#             "Use a simple language.",
-#             "Be concise.",
-#             "Have a sport host tone."
-#         ]
-        
-#         # Rechercher les chunks pertinents
-#         search_results = self.rag.search_similar_chunks(task, k=k)
-#         retrieved_data = search_results['chunks']
-        
-#         # Créer le prompt final
-#         prompt = self.rag.get_prompt_template(context, str(retrieved_data), task, constraints)
-        
-#         # Générer la réponse
-#         response = self.llm.run(prompt)
-        
-#         return {
-#             'prediction': response,
-#             'retrieved_chunks': retrieved_data,
-#             'distances': search_results['distances']
-#         }
+        return prompt

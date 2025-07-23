@@ -44,24 +44,24 @@ def reset_chatbot():
     start_conversation()
     st.rerun()
 
-def init_fighters_info():
-    if "fighters_info" not in st.session_state:
-        st.session_state.fighters_info = {
-            "fighterA": {
-                "name": "",
-                "wins": 0,
-                "draws": 0,
-                "losses": 0,
-                "kos": 0
-            },
-            "fighterB": {
-                "name": "",
-                "wins": 0,
-                "draws": 0,
-                "losses": 0,
-                "kos": 0
-            }
-        }
+# def init_fighters_info():
+#     if "fighters_info" not in st.session_state:
+#         st.session_state.fighters_info = {
+#             "fighterA": {
+#                 "name": "",
+#                 "wins": 0,
+#                 "draws": 0,
+#                 "losses": 0,
+#                 "kos": 0
+#             },
+#             "fighterB": {
+#                 "name": "",
+#                 "wins": 0,
+#                 "draws": 0,
+#                 "losses": 0,
+#                 "kos": 0
+#             }
+#         }
 
 # Removed validate_fighter_data function - validation is handled in ml_prediction page
 
@@ -176,7 +176,7 @@ def create_new_rag_system(rag, embeddings_path, vector_db_path):
         return None, None, False
 
 # Function to generate a response with or without tools (RAG, ML models)
-def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks=3):
+def generate_response(prompt, llm, rag=None, use_rag=False, nb_chunks=3):
 
     if use_rag and rag is not None:
         try:
@@ -202,9 +202,6 @@ def generate_response(prompt, result_ml, llm, rag=None, use_rag=False, nb_chunks
             rag_prompt = rag.get_prompt_template(
                 context=context,
                 retrieved_data=retrieved_data,
-                fighterA=st.session_state.fighters_info["fighterA"],
-                fighterB=st.session_state.fighters_info["fighterB"],
-                result_ml=result_ml,  # Pass ML result to RAG
                 task=prompt,
                 constraints=constraints
             )
@@ -428,7 +425,7 @@ st.markdown(
 #         fighterB_kos = st.number_input("KOs", min_value=0, key="fighterB_kos")
 
 # Initialize fighters information history
-init_fighters_info()
+# init_fighters_info()
 
 # Initialize message history
 init_chatbot()
@@ -487,7 +484,7 @@ def handle_user_input():
                         st.warning("⚠️ RAG system failed to initialize. Using standard mode.")
                         mistral_client = Mistral(api_key=api_key)
                         llm = MistralLLM(client=mistral_client, model=model_choice)
-                        result = generate_response(prompt, result_ml, llm, use_rag=False)
+                        result = generate_response(prompt, llm, use_rag=False)
                         st.write(result["response"])
                         response_content = result["response"]
                         

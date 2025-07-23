@@ -181,7 +181,6 @@ class PathManager:
 # Global instance
 path_manager = PathManager()
 
-
 def get_path_manager() -> PathManager:
     """Get the global path manager instance"""
     return path_manager
