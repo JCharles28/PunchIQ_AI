@@ -6,9 +6,16 @@
 # Ignore secret repository files
 /secret/
 
+# Ignore test repository files
+/test/
+
 # Ignore compiled Python files
 /__pycache__/
 *.pyc
 
 # Ignore draft files
 /draft/
+
+# OTHERS : Ignore extra files
+/Boxing-Prediction/src/
+/Boxing-Prediction/
